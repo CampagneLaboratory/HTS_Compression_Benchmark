@@ -149,7 +149,7 @@ function setup {
 
     # Define the work to be done
     WORK_TAGS="HZFWPTI UANMNXR MYHZZJH ZHUUJKS EJOYQAZ JRODTYG ZVLRRJH XAAOBVT UCCWRUX HENGLIT"
-    WORK_TAGS="HZFWPTI"
+    WORK_TAGS="MYHZZJH ZHUUJKS EJOYQAZ"
 
     ##
     ## Order of execution
