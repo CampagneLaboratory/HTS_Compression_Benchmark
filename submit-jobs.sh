@@ -8,12 +8,17 @@
 
 # Memory resource requirements
 # 8/9, 22/23, 4/5
-#$ -l excl=false,h_vmem=8g,virtual_free=10g 
+#$ -l excl=false,h_vmem=12g,virtual_free=12g 
 
 # Cluster queue to use
-#$ -q rascals.q@jane.pbtech,rascals.q@wally.pbtech,rascals.q@froggy.pbtech
-## #$ -q rascals.q
+## #$ -q rascals.q@jane.pbtech,rascals.q@wally.pbtech,rascals.q@froggy.pbtech
+#$ -q rascals.q,campagne_ctsc.q
 ## #$ -q campagne_ctsc.q
+set -x 
+
+JAVA_MEM=6g
+# Following line needed to set memory for groovy.
+JAVA_OPTS=-Xmx${JAVA_MEM}
 
 function setup {
     if [ ! -z $SGE_O_WORKDIR ]; then
@@ -144,16 +149,18 @@ function setup {
 
     # Define the work to be done
     WORK_TAGS="HZFWPTI UANMNXR MYHZZJH ZHUUJKS EJOYQAZ JRODTYG ZVLRRJH XAAOBVT UCCWRUX HENGLIT"
+    WORK_TAGS="HZFWPTI"
+
     ##
     ## Order of execution
     ##
-   #WORK_ACTIONS="index-bam bam-TO-bam_name_sort"  #1
+   WORK_ACTIONS="index-bam bam-TO-bam_name_sort"  #1
    #WORK_ACTIONS="bam-TO-goby_null bam-TO-goby_hybrid_domain_noclips bam-TO-goby_gzip bam-TO-cram1 bam-TO-cram2 bam-TO-cram3" #2 
    #WORK_ACTIONS="bam-TO-goby_hybrid_keep_max" #3
    #WORK_ACTIONS="cram1-TO-bam cram2-TO-bam cram3-TO-bam goby_gzip-TO-bam goby_hybrid_domain-TO-bam goby_hybrid_keep_max-TO-bam bam-TO-bzip2_reads" #4
    #WORK_ACTIONS="goby_gzip-TO-goby_null goby_gzip-TO-goby_bzip2 goby_gzip-TO-goby_gzip goby_gzip-TO-goby_hybrid goby_gzip-TO-goby_hybrid_domain goby_gzip-TO-goby_hybrid_no_templ" #5
    #WORK_ACTIONS="goby_any-TO-goby_cfs" #6
-    WORK_ACTIONS="bzip2_reads-TO-fastq_bzip2" #7
+   # WORK_ACTIONS="bzip2_reads-TO-fastq_bzip2" #7
     
    #WORK_ACTIONS="bam-TO-goby_hybrid_keep_max"
    # WORK_ACTIONS="goby_gzip-TO-goby_hybrid_domain goby_gzip-TO-goby_hybrid"
@@ -167,12 +174,9 @@ function setup {
     SAMTOOLS=~/goby-dev/nextgen-tools/samtools-0.1.14/samtools
     SAMSTAT=~/goby-dev/nextgen-tools/samstat/samstat
     PSORT=~/local-lib/bin/psort.sh
-    JAVA_MEM=6g
-    #JAVA_MEM=10g
-    #JAVA_MEM=2g
     # Question: Perhaps use -XX:+UseConcMarkSweepGC  for ??
-    GOBY_JAR=~/reads-for-paper/goby.jar
-    CRAMTOOLS_JAR=~/goby-dev/nextgen-tools/cramtools-0.7/cramtools.jar
+    GOBY_JAR=/pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/March-2016/HTS_Compression_Benchmark/goby.jar
+    CRAMTOOLS_JAR=/pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/March-2016/HTS_Compression_Benchmark/cramtools-3.0.jar
     echo GOBY version=`java -jar ${GOBY_JAR} -m version`
     CRAM_OPTIONS1="--ignore-soft-clips --exclude-unmapped-placed-reads"
     CRAM_OPTIONS2="--capture-substitution-quality-scores --capture-insertion-quality-scores"
