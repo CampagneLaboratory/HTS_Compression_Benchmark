@@ -1,0 +1,109 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: jane.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is jane.pbtech
+SGE: job identifier is 139021
+SGE: job name is HZFWPTI-bam-TO-goby_hybrid_domain_noclips
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139021.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139021.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-goby_hybrid_domain_noclips/HZFWPTI/
++++
++++ Timing converting BAM to goby_hybrid_domain_noclips HZFWPTI
++++
+Store read origin: true
+Loading genome /scratchLocal/gobyweb/input-data/reference-db/1000GENOMES.37/homo_sapiens/reference/random-access-genome
+Done loading genome 
+WARN  MessageChunksWriter  - Using chunk-size=100000
+INFO  SAMToCompactMode     - 448,512 items, 10s, 44,837.75 items/s; used/avail/free/total/max mem: 3.12G/5.11G/5.11G/8.23G/8.23G
+INFO  SAMToCompactMode     - 1,010,688 items, 20s, 50,290.49 items/s; used/avail/free/total/max mem: 2.11G/6.12G/6.12G/8.23G/8.23G
+INFO  SAMToCompactMode     - 1,610,752 items, 30s, 52,778.66 items/s; used/avail/free/total/max mem: 3.36G/4.87G/4.87G/8.23G/8.23G
+INFO  SAMToCompactMode     - 2,188,288 items, 40s, 53,995.81 items/s; used/avail/free/total/max mem: 2.35G/5.80G/5.80G/8.15G/8.15G
+INFO  SAMToCompactMode     - 2,751,488 items, 50s, 54,454.72 items/s; used/avail/free/total/max mem: 1.46G/6.58G/6.58G/8.04G/8.04G
+INFO  SAMToCompactMode     - 3,310,592 items, 1m 0s, 54,646.46 items/s; used/avail/free/total/max mem: 2.85G/4.78G/4.77G/7.62G/7.64G
+INFO  SAMToCompactMode     - 3,902,464 items, 1m 10s, 55,281.18 items/s; used/avail/free/total/max mem: 2.61G/5.03G/4.94G/7.55G/7.64G
+INFO  SAMToCompactMode     - 4,469,760 items, 1m 20s, 55,455.39 items/s; used/avail/free/total/max mem: 2.29G/5.35G/5.26G/7.54G/7.64G
+INFO  SAMToCompactMode     - 5,065,728 items, 1m 30s, 55,905.71 items/s; used/avail/free/total/max mem: 2.11G/5.52G/5.32G/7.43G/7.64G
+INFO  SAMToCompactMode     - 5,633,024 items, 1m 40s, 55,983.14 items/s; used/avail/free/total/max mem: 1.95G/5.69G/5.41G/7.36G/7.64G
+INFO  SAMToCompactMode     - 6,210,560 items, 1m 50s, 56,053.50 items/s; used/avail/free/total/max mem: 2.15G/5.48G/5.21G/7.36G/7.64G
+Total logical entries written: 6707736
+Total bytes written: 102701243
+Average bytes/logical entry: 15.310865
+Min query index: 0
+Max query index: 3583430
+Number of queries: 6717737
+Number of targets: 86
+
+real	2m3.354s
+user	2m17.314s
+sys	0m6.926s
+Using processor NONE
+WARN  MessageChunksWriter  - Using chunk-size=100000
+input alignments are all sorted, the output will also be sorted.
+true
+Concatenating TMH..
+Warning: could not find depth/max-length-of-match in too many hits information.
+Done.
+INFO  root                 - Concatenating entries
+INFO  root                 - 1,000,448 items, 10s, 94,766.32 items/s; used/avail/free/total/max mem: 2.17G/6.07G/6.07G/8.23G/8.23G
+INFO  root                 - 2,200,576 items, 20s, 105,573.59 items/s; used/avail/free/total/max mem: 344.94M/7.72G/7.72G/8.07G/8.07G
+INFO  root                 - 3,400,704 items, 31s, 109,519.95 items/s; used/avail/free/total/max mem: 334.86M/8.09G/8.09G/8.42G/8.42G
+INFO  root                 - 4,610,048 items, 41s, 112,300.50 items/s; used/avail/free/total/max mem: 2.13G/6.25G/6.25G/8.38G/8.38G
+INFO  root                 - 5,900,288 items, 51s, 114,375.48 items/s; used/avail/free/total/max mem: 1.71G/6.73G/6.73G/8.44G/8.44G
+INFO  root                 - Completed.
+INFO  root                 - Elapsed: 57s [6,717,737 items, 115,882.99 items/s]; used/avail/free/total/max mem: 1.09G/7.35G/7.35G/8.44G/8.44G
+Total logical entries written: 6717737
+Total bytes written: 33093159
+Average bytes/logical entry: 4.926236
+Min query index: 0
+Max query index: 3588795
+Number of queries: 6717737
+Number of targets: 86
+Wrote a total of 6717737 alignment entries.
+Number of alignment entries realigned in the proximity of indels: 0 (0.00 % of total)
+job completed
+total 32M
+-rw-r--r--  1 gobyweb icb  32M Jun 10 12:20 HZFWPTI.entries
+-rw-r--r--  1 gobyweb icb 1.5K Jun 10 12:20 HZFWPTI.header
+-rw-r--r--  1 gobyweb icb  598 Jun 10 12:20 HZFWPTI.index
+-rw-r--r--  1 gobyweb icb  471 Jun 10 12:20 HZFWPTI.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 12:20 HZFWPTI.tmh
+-rw-r--r--  1 gobyweb icb 9.9K Jun 10 12:20 HZFWPTI.compact-file-stats.txt
+drwxr-xr-x 13 gobyweb icb 4.0K May 25 18:42 ..
+drwxr-xr-x  2 gobyweb icb 4.0K May 25 17:53 .
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+HZFWPTI-(no-type) total size (33093239+1474+598) = 33095311
+:bits per base
+/home/gobyweb/reads-for-paper/results/bam-TO-goby_hybrid_domain_noclips/HZFWPTI//HZFWPTI.compact-file-stats.txt : 0.071395

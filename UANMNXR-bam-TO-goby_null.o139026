@@ -1,0 +1,78 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139026
+SGE: job name is UANMNXR-bam-TO-goby_null
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139026.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139026.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-goby_null/UANMNXR/
++++
++++ Timing BAM to Goby-NULL UANMNXR
++++
+Store read origin: false
+WARN  MessageChunksWriter  - Using chunk-size=10000
+INFO  SAMToCompactMode     - 805,888 items, 10s, 80,532.43 items/s; used/avail/free/total/max mem: 562.73M/7.67G/7.67G/8.23G/8.23G
+INFO  SAMToCompactMode     - 1,756,160 items, 20s, 87,750.96 items/s; used/avail/free/total/max mem: 1.44G/6.79G/6.79G/8.23G/8.23G
+INFO  SAMToCompactMode     - 2,708,480 items, 30s, 90,222.52 items/s; used/avail/free/total/max mem: 381.46M/7.36G/7.36G/7.74G/7.74G
+INFO  SAMToCompactMode     - 3,667,968 items, 40s, 91,646.50 items/s; used/avail/free/total/max mem: 1.78G/5.86G/5.86G/7.64G/7.64G
+INFO  SAMToCompactMode     - 4,616,192 items, 50s, 92,266.63 items/s; used/avail/free/total/max mem: 1.40G/6.24G/6.11G/7.50G/7.64G
+INFO  SAMToCompactMode     - 5,566,464 items, 1m 0s, 92,724.95 items/s; used/avail/free/total/max mem: 1.37G/6.26G/6.01G/7.38G/7.64G
+Total logical entries written: 6089594
+Total bytes written: 6688
+Average bytes/logical entry: 0.001098267
+Min query index: 0
+Max query index: 3272818
+Number of queries: 6089594
+Number of targets: 86
+
+real	1m7.796s
+user	1m9.565s
+sys	0m1.438s
+rm: cannot remove `UANMNXR.bam': No such file or directory
+job completed
+total 499M
+-rw-r--r--  1 gobyweb icb  879 Jun 10 12:18 UANMNXR.header
+-rw-r--r--  1 gobyweb icb  239 Jun 10 12:18 UANMNXR.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 12:18 UANMNXR.tmh
+-rw-r--r--  1 gobyweb icb 7.2K Jun 10 12:18 UANMNXR.entries
+-rw-r--r--  1 gobyweb icb 498M Jun 10 12:18 UANMNXR-no-unmapped.bam
+drwxr-xr-x  2 gobyweb icb 4.0K Jun  4 13:24 .
+drwxr-xr-x 12 gobyweb icb 4.0K May 17 17:57 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+UANMNXR-(no-type) total size (879+7320) = 8199 UANMNXR-no-unmapped total size (521935665) = 521935665
+:bits per base
+Could not process file: /home/gobyweb/reads-for-paper/results/bam-TO-goby_null/UANMNXR//*compact-file-stats.txt

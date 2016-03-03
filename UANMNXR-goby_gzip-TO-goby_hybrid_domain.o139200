@@ -1,0 +1,90 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139200
+SGE: job name is UANMNXR-goby_gzip-TO-goby_hybrid_domain
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139200.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139200.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_hybrid_domain/UANMNXR/
++++
++++ Timing performing goby_gzip to goby_hybrid_domain for UANMNXR
++++
+Using processor NONE
+WARN  MessageChunksWriter  - Using chunk-size=100000
+input alignments are all sorted, the output will also be sorted.
+true
+Concatenating TMH..
+Warning: could not find depth/max-length-of-match in too many hits information.
+Done.
+INFO  root                 - Concatenating entries
+INFO  root                 - 500,736 items, 10s, 46,450.46 items/s; used/avail/free/total/max mem: 425.69M/5.75G/5.75G/6.17G/6.17G
+INFO  root                 - 1,200,128 items, 21s, 56,639.20 items/s; used/avail/free/total/max mem: 1.22G/4.96G/4.96G/6.17G/6.17G
+INFO  root                 - 1,900,544 items, 32s, 59,142.49 items/s; used/avail/free/total/max mem: 369.27M/5.71G/5.71G/6.08G/6.08G
+INFO  root                 - 2,600,960 items, 42s, 60,815.56 items/s; used/avail/free/total/max mem: 1.03G/5.23G/5.23G/6.26G/6.26G
+INFO  root                 - 3,300,352 items, 54s, 61,074.65 items/s; used/avail/free/total/max mem: 1.55G/4.71G/4.71G/6.26G/6.26G
+INFO  root                 - 4,000,768 items, 1m 4s, 61,714.53 items/s; used/avail/free/total/max mem: 125.11M/6.14G/6.14G/6.27G/6.27G
+INFO  root                 - 4,792,320 items, 1m 14s, 64,044.48 items/s; used/avail/free/total/max mem: 637.55M/5.63G/5.63G/6.27G/6.27G
+INFO  root                 - 5,400,576 items, 1m 25s, 62,994.44 items/s; used/avail/free/total/max mem: 885.97M/5.39G/5.39G/6.28G/6.28G
+INFO  root                 - Completed.
+INFO  root                 - Elapsed: 1m 34s [6,089,594 items, 64,583.67 items/s]; used/avail/free/total/max mem: 776.45M/5.51G/5.51G/6.28G/6.28G
+Total logical entries written: 6089594
+Total bytes written: 38868797
+Average bytes/logical entry: 6.382822
+Min query index: 0
+Max query index: 3272819
+Number of queries: 6089594
+Number of targets: 86
+Wrote a total of 6089594 alignment entries.
+Number of alignment entries realigned in the proximity of indels: 0 (0.00 % of total)
+
+real	1m38.067s
+user	2m16.171s
+sys	0m5.047s
+job completed
+total 38M
+-rw-r--r--  1 gobyweb icb 9.9K Jun 10 19:06 UANMNXR-hybrid-domain.compact-file-stats.txt
+-rw-r--r--  1 gobyweb icb  38M Jun 10 19:06 UANMNXR-hybrid-domain.entries
+-rw-r--r--  1 gobyweb icb 1.5K Jun 10 19:06 UANMNXR-hybrid-domain.header
+-rw-r--r--  1 gobyweb icb  543 Jun 10 19:06 UANMNXR-hybrid-domain.index
+-rw-r--r--  1 gobyweb icb  477 Jun 10 19:06 UANMNXR-hybrid-domain.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 19:06 UANMNXR-hybrid-domain.tmh
+drwxr-xr-x  2 gobyweb icb 4.0K Jun  5 17:57 .
+drwxr-xr-x 13 gobyweb icb 4.0K May 26 17:12 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+UANMNXR-hybrid-domain total size (38868870+1492+543) = 38870905
+:bits per base
+/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_hybrid_domain/UANMNXR//UANMNXR-hybrid-domain.compact-file-stats.txt : 0.092505

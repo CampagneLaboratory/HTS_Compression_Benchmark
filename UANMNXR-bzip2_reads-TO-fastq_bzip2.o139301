@@ -1,0 +1,70 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139301
+SGE: job name is UANMNXR-bzip2_reads-TO-fastq_bzip2
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139301.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139301.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bzip2_reads-TO-fastq_bzip2/UANMNXR/
++++
++++ Timing BAM to bzip2 reads UANMNXR
++++
+INFO  root                 - 420,864 items, 10s, 40,557.39 items/s; used/avail/free/total/max mem: 897.13M/5.28G/5.28G/6.17G/6.17G
+INFO  root                 - 700,416 items, 20s, 33,939.82 items/s; used/avail/free/total/max mem: 813.31M/4.92G/4.92G/5.73G/5.73G
+INFO  root                 - 960,512 items, 30s, 31,078.50 items/s; used/avail/free/total/max mem: 1.11G/4.62G/4.47G/5.58G/5.73G
+INFO  root                 - 1,240,064 items, 41s, 30,092.80 items/s; used/avail/free/total/max mem: 984.84M/4.91G/4.91G/5.90G/5.90G
+INFO  root                 - 1,519,616 items, 51s, 29,673.05 items/s; used/avail/free/total/max mem: 934.48M/4.79G/4.78G/5.71G/5.73G
+INFO  root                 - 1,780,736 items, 1m 1s, 28,912.28 items/s; used/avail/free/total/max mem: 971.98M/4.80G/4.80G/5.78G/5.78G
+INFO  root                 - 2,072,576 items, 1m 11s, 28,948.61 items/s; used/avail/free/total/max mem: 265.70M/5.46G/5.32G/5.58G/5.73G
+INFO  root                 - 2,320,384 items, 1m 21s, 28,396.75 items/s; used/avail/free/total/max mem: 533.22M/5.19G/5.08G/5.62G/5.73G
+INFO  root                 - 2,596,864 items, 1m 31s, 28,315.11 items/s; used/avail/free/total/max mem: 1.50G/4.25G/4.25G/5.74G/5.74G
+INFO  root                 - 2,860,032 items, 1m 42s, 28,011.24 items/s; used/avail/free/total/max mem: 517.97M/5.21G/5.04G/5.55G/5.73G
+INFO  root                 - 3,120,128 items, 1m 52s, 27,753.22 items/s; used/avail/free/total/max mem: 1.23G/4.50G/4.39G/5.62G/5.73G
+
+real	2m11.850s
+user	2m20.296s
+sys	0m2.714s
+job completed
+total 337M
+-rw-r--r--  1 gobyweb icb 161M Jun 10 22:03 UANMNXR.2_fq_bz2
+-rw-r--r--  1 gobyweb icb 176M Jun 10 21:59 UANMNXR.1_fq_bz2
+drwxr-xr-x  2 gobyweb icb 4.0K May 12 13:45 .
+drwxr-xr-x 12 gobyweb icb 4.0K May 12 13:41 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+UANMNXR-(no-type) total size (168277935+184362828) = 352640763
+:bits per base
+Could not process file: /home/gobyweb/reads-for-paper/results/bzip2_reads-TO-fastq_bzip2/UANMNXR//*compact-file-stats.txt

@@ -1,0 +1,110 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139303
+SGE: job name is ZHUUJKS-bzip2_reads-TO-fastq_bzip2
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139303.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139303.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bzip2_reads-TO-fastq_bzip2/ZHUUJKS/
++++
++++ Timing BAM to bzip2 reads ZHUUJKS
++++
+INFO  root                 - 825,344 items, 10s, 82,534.40 items/s; used/avail/free/total/max mem: 630.57M/5.54G/5.54G/6.17G/6.17G
+INFO  root                 - 1,760,256 items, 20s, 87,627.24 items/s; used/avail/free/total/max mem: 665.10M/5.08G/5.08G/5.75G/5.75G
+INFO  root                 - 2,660,352 items, 30s, 88,245.99 items/s; used/avail/free/total/max mem: 1.20G/4.53G/4.38G/5.57G/5.73G
+INFO  root                 - 3,522,560 items, 40s, 87,734.99 items/s; used/avail/free/total/max mem: 1.30G/4.73G/4.73G/6.03G/6.03G
+INFO  root                 - 4,380,672 items, 50s, 87,339.19 items/s; used/avail/free/total/max mem: 233.14M/5.57G/5.57G/5.80G/5.80G
+INFO  root                 - 5,237,760 items, 1m 0s, 87,068.17 items/s; used/avail/free/total/max mem: 1.46G/4.27G/4.21G/5.66G/5.73G
+INFO  root                 - 6,085,632 items, 1m 10s, 86,739.34 items/s; used/avail/free/total/max mem: 685.68M/5.04G/4.82G/5.51G/5.73G
+INFO  root                 - 6,885,376 items, 1m 20s, 85,892.19 items/s; used/avail/free/total/max mem: 1.91G/4.24G/4.24G/6.15G/6.15G
+INFO  root                 - 7,740,416 items, 1m 30s, 85,768.28 items/s; used/avail/free/total/max mem: 1.81G/4.17G/4.17G/5.99G/5.99G
+INFO  root                 - 8,580,096 items, 1m 40s, 85,587.85 items/s; used/avail/free/total/max mem: 657.98M/5.14G/5.14G/5.79G/5.79G
+INFO  root                 - 9,480,192 items, 1m 50s, 85,919.56 items/s; used/avail/free/total/max mem: 884.07M/4.84G/4.74G/5.62G/5.73G
+INFO  root                 - 10,380,288 items, 2m 0s, 86,192.11 items/s; used/avail/free/total/max mem: 805.83M/4.92G/4.65G/5.46G/5.73G
+INFO  root                 - 11,280,384 items, 2m 10s, 86,468.22 items/s; used/avail/free/total/max mem: 622.92M/5.10G/4.92G/5.54G/5.73G
+INFO  root                 - 12,180,480 items, 2m 20s, 86,677.77 items/s; used/avail/free/total/max mem: 970.70M/4.76G/4.43G/5.40G/5.73G
+INFO  root                 - 13,040,640 items, 2m 30s, 86,604.46 items/s; used/avail/free/total/max mem: 1.82G/4.26G/4.26G/6.07G/6.07G
+INFO  root                 - 13,940,736 items, 2m 40s, 86,764.65 items/s; used/avail/free/total/max mem: 1.46G/4.96G/4.96G/6.42G/6.42G
+INFO  root                 - 14,800,896 items, 2m 50s, 86,686.24 items/s; used/avail/free/total/max mem: 2.17G/4.13G/4.13G/6.30G/6.30G
+INFO  root                 - 15,640,576 items, 3m 0s, 86,482.74 items/s; used/avail/free/total/max mem: 1.36G/4.73G/4.73G/6.09G/6.09G
+INFO  root                 - 16,540,672 items, 3m 10s, 86,624.41 items/s; used/avail/free/total/max mem: 1.78G/4.14G/4.14G/5.91G/5.91G
+INFO  root                 - 17,413,120 items, 3m 20s, 86,654.42 items/s; used/avail/free/total/max mem: 1.22G/4.51G/4.51G/5.73G/5.73G
+INFO  root                 - 18,300,928 items, 3m 31s, 86,726.86 items/s; used/avail/free/total/max mem: 1.69G/4.04G/3.89G/5.57G/5.73G
+INFO  root                 - 19,201,024 items, 3m 41s, 86,871.85 items/s; used/avail/free/total/max mem: 722.97M/5.00G/4.67G/5.39G/5.73G
+INFO  root                 - 20,100,096 items, 3m 51s, 86,979.14 items/s; used/avail/free/total/max mem: 894.52M/4.83G/4.57G/5.47G/5.73G
+INFO  root                 - 20,995,072 items, 4m 1s, 87,082.52 items/s; used/avail/free/total/max mem: 1.34G/4.52G/4.52G/5.86G/5.86G
+INFO  root                 - 21,888,000 items, 4m 11s, 87,169.85 items/s; used/avail/free/total/max mem: 1.23G/4.49G/4.45G/5.68G/5.73G
+INFO  root                 - 22,743,040 items, 4m 21s, 87,104.38 items/s; used/avail/free/total/max mem: 1.62G/4.11G/3.91G/5.53G/5.73G
+INFO  root                 - 23,560,192 items, 4m 31s, 86,897.58 items/s; used/avail/free/total/max mem: 1.58G/4.37G/4.37G/5.96G/5.96G
+INFO  root                 - 24,340,480 items, 4m 41s, 86,567.32 items/s; used/avail/free/total/max mem: 1.55G/4.25G/4.25G/5.80G/5.80G
+INFO  root                 - 25,160,704 items, 4m 51s, 86,400.55 items/s; used/avail/free/total/max mem: 1.10G/4.62G/4.53G/5.63G/5.73G
+INFO  root                 - 25,820,160 items, 5m 1s, 85,701.54 items/s; used/avail/free/total/max mem: 2.14G/4.27G/4.27G/6.40G/6.40G
+INFO  root                 - 26,640,384 items, 5m 11s, 85,572.08 items/s; used/avail/free/total/max mem: 2.56G/3.85G/3.85G/6.41G/6.41G
+INFO  root                 - 27,518,976 items, 5m 21s, 85,642.99 items/s; used/avail/free/total/max mem: 3.49G/2.84G/2.84G/6.33G/6.33G
+INFO  root                 - 28,380,160 items, 5m 31s, 85,646.22 items/s; used/avail/free/total/max mem: 2.74G/3.38G/3.38G/6.12G/6.12G
+INFO  root                 - 29,229,056 items, 5m 41s, 85,622.55 items/s; used/avail/free/total/max mem: 2.68G/3.26G/3.26G/5.94G/5.94G
+INFO  root                 - 30,083,072 items, 5m 51s, 85,615.78 items/s; used/avail/free/total/max mem: 1.89G/3.86G/3.86G/5.75G/5.75G
+INFO  root                 - 30,934,016 items, 6m 1s, 85,600.87 items/s; used/avail/free/total/max mem: 1.92G/3.81G/3.67G/5.59G/5.73G
+INFO  root                 - 31,820,800 items, 6m 11s, 85,680.51 items/s; used/avail/free/total/max mem: 3.01G/2.72G/2.45G/5.45G/5.73G
+INFO  root                 - 32,720,896 items, 6m 21s, 85,786.60 items/s; used/avail/free/total/max mem: 2.75G/2.97G/2.55G/5.30G/5.73G
+INFO  root                 - 33,614,848 items, 6m 31s, 85,877.69 items/s; used/avail/free/total/max mem: 2.99G/2.95G/2.95G/5.94G/5.94G
+INFO  root                 - 34,520,064 items, 6m 41s, 85,985.24 items/s; used/avail/free/total/max mem: 2.57G/3.18G/3.18G/5.75G/5.75G
+INFO  root                 - 35,430,400 items, 6m 51s, 86,107.30 items/s; used/avail/free/total/max mem: 3.06G/2.67G/2.53G/5.59G/5.73G
+INFO  root                 - 36,320,256 items, 7m 1s, 86,174.16 items/s; used/avail/free/total/max mem: 3.01G/2.72G/2.42G/5.43G/5.73G
+INFO  root                 - 37,220,352 items, 7m 11s, 86,244.27 items/s; used/avail/free/total/max mem: 1.98G/3.75G/3.52G/5.49G/5.73G
+INFO  root                 - 38,111,232 items, 7m 21s, 86,307.49 items/s; used/avail/free/total/max mem: 3.05G/2.68G/2.56G/5.61G/5.73G
+INFO  root                 - 38,992,896 items, 7m 31s, 86,348.66 items/s; used/avail/free/total/max mem: 2.81G/2.92G/2.64G/5.45G/5.73G
+INFO  root                 - 39,880,704 items, 7m 41s, 86,391.99 items/s; used/avail/free/total/max mem: 2.28G/3.45G/3.24G/5.52G/5.73G
+INFO  root                 - 40,740,864 items, 7m 51s, 86,379.44 items/s; used/avail/free/total/max mem: 2.39G/3.34G/2.99G/5.37G/5.73G
+INFO  root                 - 41,638,912 items, 8m 1s, 86,449.84 items/s; used/avail/free/total/max mem: 2.69G/3.04G/2.77G/5.45G/5.73G
+INFO  root                 - 42,520,576 items, 8m 11s, 86,478.25 items/s; used/avail/free/total/max mem: 2.30G/3.42G/3.00G/5.30G/5.73G
+INFO  root                 - 43,417,600 items, 8m 21s, 86,542.34 items/s; used/avail/free/total/max mem: 2.38G/3.35G/3.23G/5.61G/5.73G
+INFO  root                 - 44,320,768 items, 8m 31s, 86,613.40 items/s; used/avail/free/total/max mem: 2.35G/3.37G/3.09G/5.45G/5.73G
+INFO  root                 - 45,233,152 items, 8m 41s, 86,701.55 items/s; used/avail/free/total/max mem: 2.26G/3.47G/3.04G/5.30G/5.73G
+
+real	8m51.657s
+user	9m58.246s
+sys	0m9.426s
+job completed
+total 753M
+-rw-r--r--  1 gobyweb icb 752M Jun 10 22:20 ZHUUJKS.1_fq_bz2
+drwxr-xr-x  2 gobyweb icb 4.0K May 12 13:58 .
+drwxr-xr-x 12 gobyweb icb 4.0K May 12 13:41 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+ZHUUJKS-(no-type) total size (788015043) = 788015043
+:bits per base
+Could not process file: /home/gobyweb/reads-for-paper/results/bzip2_reads-TO-fastq_bzip2/ZHUUJKS//*compact-file-stats.txt

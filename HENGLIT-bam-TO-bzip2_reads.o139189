@@ -1,0 +1,187 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: jane.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is jane.pbtech
+SGE: job identifier is 139189
+SGE: job name is HENGLIT-bam-TO-bzip2_reads
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139189.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139189.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-bzip2_reads/HENGLIT/
++++
++++ Timing BAM to bzip2 reads HENGLIT
++++
+WARN  MessageChunksWriter  - Using chunk-size=20000
+INFO  SamExtractReadsMode  - 120,832 items, 11s, 10,485.25 items/s
+INFO  SamExtractReadsMode  - 240,640 items, 22s, 10,809.45 items/s
+INFO  SamExtractReadsMode  - 360,448 items, 33s, 10,896.91 items/s
+INFO  SamExtractReadsMode  - 480,256 items, 44s, 10,870.93 items/s
+INFO  SamExtractReadsMode  - 600,064 items, 55s, 10,889.86 items/s
+INFO  SamExtractReadsMode  - 720,896 items, 1m 5s, 10,925.48 items/s
+INFO  SamExtractReadsMode  - 840,704 items, 1m 17s, 10,887.13 items/s
+INFO  SamExtractReadsMode  - 960,512 items, 1m 28s, 10,913.79 items/s
+INFO  SamExtractReadsMode  - 1,060,864 items, 1m 38s, 10,808.16 items/s
+INFO  SamExtractReadsMode  - 1,173,504 items, 1m 48s, 10,849.90 items/s
+INFO  SamExtractReadsMode  - 1,280,000 items, 1m 58s, 10,772.42 items/s
+INFO  SamExtractReadsMode  - 1,400,832 items, 2m 9s, 10,789.16 items/s
+INFO  SamExtractReadsMode  - 1,520,640 items, 2m 20s, 10,826.61 items/s
+INFO  SamExtractReadsMode  - 1,640,448 items, 2m 31s, 10,861.45 items/s
+INFO  SamExtractReadsMode  - 1,760,256 items, 2m 41s, 10,882.91 items/s
+INFO  SamExtractReadsMode  - 1,880,064 items, 2m 52s, 10,886.93 items/s
+INFO  SamExtractReadsMode  - 2,000,896 items, 3m 3s, 10,895.10 items/s
+INFO  SamExtractReadsMode  - 2,120,704 items, 3m 14s, 10,885.51 items/s
+INFO  SamExtractReadsMode  - 2,240,512 items, 3m 26s, 10,860.98 items/s
+INFO  SamExtractReadsMode  - 2,360,320 items, 3m 37s, 10,872.59 items/s
+INFO  SamExtractReadsMode  - 2,480,128 items, 3m 48s, 10,870.46 items/s
+INFO  SamExtractReadsMode  - 2,600,960 items, 3m 58s, 10,889.06 items/s
+INFO  SamExtractReadsMode  - 2,720,768 items, 4m 9s, 10,891.35 items/s
+INFO  SamExtractReadsMode  - 2,840,576 items, 4m 20s, 10,891.45 items/s
+INFO  SamExtractReadsMode  - 2,960,384 items, 4m 31s, 10,904.37 items/s
+INFO  SamExtractReadsMode  - 3,080,192 items, 4m 42s, 10,903.60 items/s
+INFO  SamExtractReadsMode  - 3,200,000 items, 4m 53s, 10,916.66 items/s
+INFO  SamExtractReadsMode  - 3,320,832 items, 5m 3s, 10,926.84 items/s
+INFO  SamExtractReadsMode  - 3,440,640 items, 5m 14s, 10,928.22 items/s
+INFO  SamExtractReadsMode  - 3,560,448 items, 5m 25s, 10,940.21 items/s
+INFO  SamExtractReadsMode  - 3,680,256 items, 5m 36s, 10,949.46 items/s
+INFO  SamExtractReadsMode  - 3,800,064 items, 5m 46s, 10,960.19 items/s
+INFO  SamExtractReadsMode  - 3,920,896 items, 5m 57s, 10,965.46 items/s
+INFO  SamExtractReadsMode  - 4,040,704 items, 6m 8s, 10,969.62 items/s
+INFO  SamExtractReadsMode  - 4,160,512 items, 6m 19s, 10,965.02 items/s
+INFO  SamExtractReadsMode  - 4,280,320 items, 6m 30s, 10,954.06 items/s
+INFO  SamExtractReadsMode  - 4,400,128 items, 6m 41s, 10,963.26 items/s
+INFO  SamExtractReadsMode  - 4,520,960 items, 6m 52s, 10,970.65 items/s
+INFO  SamExtractReadsMode  - 4,640,768 items, 7m 3s, 10,963.88 items/s
+INFO  SamExtractReadsMode  - 4,760,576 items, 7m 14s, 10,967.58 items/s
+INFO  SamExtractReadsMode  - 4,880,384 items, 7m 25s, 10,961.34 items/s
+INFO  SamExtractReadsMode  - 5,000,192 items, 7m 35s, 10,970.60 items/s
+INFO  SamExtractReadsMode  - 5,120,000 items, 7m 46s, 10,967.31 items/s
+INFO  SamExtractReadsMode  - 5,240,832 items, 7m 57s, 10,972.32 items/s
+INFO  SamExtractReadsMode  - 5,360,640 items, 8m 7s, 10,986.52 items/s
+INFO  SamExtractReadsMode  - 5,480,448 items, 8m 18s, 10,995.40 items/s
+INFO  SamExtractReadsMode  - 5,600,256 items, 8m 29s, 10,998.25 items/s
+INFO  SamExtractReadsMode  - 5,720,064 items, 8m 39s, 11,008.95 items/s
+INFO  SamExtractReadsMode  - 5,840,896 items, 8m 49s, 11,023.68 items/s
+INFO  SamExtractReadsMode  - 5,960,704 items, 9m 0s, 11,026.89 items/s
+INFO  SamExtractReadsMode  - 6,080,512 items, 9m 11s, 11,031.49 items/s
+INFO  SamExtractReadsMode  - 6,200,320 items, 9m 21s, 11,040.30 items/s
+INFO  SamExtractReadsMode  - 6,320,128 items, 9m 32s, 11,042.07 items/s
+INFO  SamExtractReadsMode  - 6,440,960 items, 9m 43s, 11,032.20 items/s
+INFO  SamExtractReadsMode  - 6,560,768 items, 9m 54s, 11,038.39 items/s
+INFO  SamExtractReadsMode  - 6,680,576 items, 10m 5s, 11,042.02 items/s
+INFO  SamExtractReadsMode  - 6,800,384 items, 10m 15s, 11,053.92 items/s
+INFO  SamExtractReadsMode  - 6,920,192 items, 10m 25s, 11,064.41 items/s
+INFO  SamExtractReadsMode  - 7,040,000 items, 10m 35s, 11,075.45 items/s
+INFO  SamExtractReadsMode  - 7,160,832 items, 10m 45s, 11,086.11 items/s
+INFO  SamExtractReadsMode  - 7,280,640 items, 10m 56s, 11,093.85 items/s
+INFO  SamExtractReadsMode  - 7,400,448 items, 11m 6s, 11,096.34 items/s
+INFO  SamExtractReadsMode  - 7,520,256 items, 11m 17s, 11,101.37 items/s
+INFO  SamExtractReadsMode  - 7,640,064 items, 11m 28s, 11,099.95 items/s
+INFO  SamExtractReadsMode  - 7,760,896 items, 11m 38s, 11,106.40 items/s
+INFO  SamExtractReadsMode  - 7,880,704 items, 11m 49s, 11,109.71 items/s
+INFO  SamExtractReadsMode  - 8,000,512 items, 12m 0s, 11,099.30 items/s
+INFO  SamExtractReadsMode  - 8,120,320 items, 12m 11s, 11,097.20 items/s
+INFO  SamExtractReadsMode  - 8,240,128 items, 12m 22s, 11,099.07 items/s
+INFO  SamExtractReadsMode  - 8,360,960 items, 12m 34s, 11,087.16 items/s
+INFO  SamExtractReadsMode  - 8,480,768 items, 12m 44s, 11,090.41 items/s
+INFO  SamExtractReadsMode  - 8,600,576 items, 12m 55s, 11,096.66 items/s
+INFO  SamExtractReadsMode  - 8,720,384 items, 13m 5s, 11,102.21 items/s
+INFO  SamExtractReadsMode  - 8,840,192 items, 13m 15s, 11,106.97 items/s
+INFO  SamExtractReadsMode  - 8,960,000 items, 13m 26s, 11,111.04 items/s
+INFO  SamExtractReadsMode  - 9,080,832 items, 13m 36s, 11,119.12 items/s
+INFO  SamExtractReadsMode  - 9,200,640 items, 13m 47s, 11,116.84 items/s
+INFO  SamExtractReadsMode  - 9,320,448 items, 13m 58s, 11,110.08 items/s
+INFO  SamExtractReadsMode  - 9,440,256 items, 14m 9s, 11,110.54 items/s
+INFO  SamExtractReadsMode  - 9,560,064 items, 14m 20s, 11,111.55 items/s
+INFO  SamExtractReadsMode  - 9,680,896 items, 14m 31s, 11,112.98 items/s
+INFO  SamExtractReadsMode  - 9,800,704 items, 14m 41s, 11,116.28 items/s
+INFO  SamExtractReadsMode  - 9,920,512 items, 14m 52s, 11,117.39 items/s
+INFO  SamExtractReadsMode  - 10,040,320 items, 15m 2s, 11,121.02 items/s
+INFO  SamExtractReadsMode  - 10,160,128 items, 15m 13s, 11,126.55 items/s
+INFO  SamExtractReadsMode  - 10,280,960 items, 15m 23s, 11,132.48 items/s
+INFO  SamExtractReadsMode  - 10,400,768 items, 15m 33s, 11,137.59 items/s
+INFO  SamExtractReadsMode  - 10,520,576 items, 15m 44s, 11,142.57 items/s
+INFO  SamExtractReadsMode  - 10,640,384 items, 15m 54s, 11,144.41 items/s
+INFO  SamExtractReadsMode  - 10,760,192 items, 16m 5s, 11,139.80 items/s
+INFO  SamExtractReadsMode  - 10,880,000 items, 16m 16s, 11,137.86 items/s
+INFO  SamExtractReadsMode  - 11,000,832 items, 16m 27s, 11,143.72 items/s
+INFO  SamExtractReadsMode  - 11,120,640 items, 16m 37s, 11,145.68 items/s
+INFO  SamExtractReadsMode  - 11,240,448 items, 16m 48s, 11,147.90 items/s
+INFO  SamExtractReadsMode  - 11,360,256 items, 16m 58s, 11,153.11 items/s
+INFO  SamExtractReadsMode  - 11,480,064 items, 17m 9s, 11,151.19 items/s
+INFO  SamExtractReadsMode  - 11,600,896 items, 17m 20s, 11,153.26 items/s
+INFO  SamExtractReadsMode  - 11,720,704 items, 17m 31s, 11,151.33 items/s
+INFO  SamExtractReadsMode  - 11,840,512 items, 17m 41s, 11,149.72 items/s
+INFO  SamExtractReadsMode  - 11,960,320 items, 17m 53s, 11,146.29 items/s
+INFO  SamExtractReadsMode  - 12,080,128 items, 18m 3s, 11,147.50 items/s
+INFO  SamExtractReadsMode  - 12,200,960 items, 18m 14s, 11,152.58 items/s
+INFO  SamExtractReadsMode  - 12,320,768 items, 18m 24s, 11,156.94 items/s
+INFO  SamExtractReadsMode  - 12,440,576 items, 18m 34s, 11,158.87 items/s
+INFO  SamExtractReadsMode  - 12,560,384 items, 18m 45s, 11,163.81 items/s
+INFO  SamExtractReadsMode  - 12,680,192 items, 18m 55s, 11,168.85 items/s
+INFO  SamExtractReadsMode  - 12,800,000 items, 19m 5s, 11,173.56 items/s
+INFO  SamExtractReadsMode  - 12,920,832 items, 19m 16s, 11,176.95 items/s
+INFO  SamExtractReadsMode  - 13,040,640 items, 19m 26s, 11,182.04 items/s
+INFO  SamExtractReadsMode  - 13,160,448 items, 19m 36s, 11,185.58 items/s
+INFO  SamExtractReadsMode  - 13,280,256 items, 19m 47s, 11,187.05 items/s
+INFO  SamExtractReadsMode  - 13,400,064 items, 19m 58s, 11,184.23 items/s
+INFO  SamExtractReadsMode  - 13,520,896 items, 20m 8s, 11,185.33 items/s
+INFO  SamExtractReadsMode  - 13,640,704 items, 20m 19s, 11,184.87 items/s
+INFO  SamExtractReadsMode  - 13,760,512 items, 20m 29s, 11,187.53 items/s
+INFO  SamExtractReadsMode  - 13,880,320 items, 20m 40s, 11,190.47 items/s
+INFO  SamExtractReadsMode  - 14,000,128 items, 20m 50s, 11,193.99 items/s
+INFO  SamExtractReadsMode  - 14,120,960 items, 21m 1s, 11,195.37 items/s
+INFO  SamExtractReadsMode  - 14,240,768 items, 21m 12s, 11,195.56 items/s
+INFO  SamExtractReadsMode  - 14,360,576 items, 21m 22s, 11,197.39 items/s
+INFO  SamExtractReadsMode  - 14,480,384 items, 21m 33s, 11,192.01 items/s
+INFO  SamExtractReadsMode  - 14,600,192 items, 21m 44s, 11,196.36 items/s
+INFO  SamExtractReadsMode  - 14,720,000 items, 21m 54s, 11,200.71 items/s
+INFO  SamExtractReadsMode  - 14,840,832 items, 22m 4s, 11,205.22 items/s
+INFO  SamExtractReadsMode  - 14,960,640 items, 22m 15s, 11,204.04 items/s
+Total number of reads written 15000000
+Number of paired-end reads written 15000000
+
+real	22m20.188s
+user	22m27.455s
+sys	0m4.335s
+job completed
+total 1.6G
+-rw-r--r--  1 gobyweb icb 1.6G Jun 10 18:27 HENGLIT.compact-reads
+-rw-r--r--  1 gobyweb icb  601 May 12 12:39 HENGLIT.compact-file-stats.txt
+drwxr-xr-x  2 gobyweb icb 4.0K Apr 13 17:20 .
+drwxr-xr-x 13 gobyweb icb 4.0K Apr 13 16:50 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+HENGLIT-(no-type) total size (1629434001) = 1629434001
+:bits per base
+/home/gobyweb/reads-for-paper/results/bam-TO-bzip2_reads/HENGLIT//HENGLIT.compact-file-stats.txt : unknown

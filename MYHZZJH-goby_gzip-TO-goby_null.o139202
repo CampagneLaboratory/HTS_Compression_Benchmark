@@ -1,0 +1,95 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139202
+SGE: job name is MYHZZJH-goby_gzip-TO-goby_null
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139202.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139202.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_null/MYHZZJH/
++++
++++ Timing converting goby_gzip to goby_null MYHZZJH
++++
+Using processor NONE
+WARN  MessageChunksWriter  - Using chunk-size=10000
+input alignments are all sorted, the output will also be sorted.
+true
+Concatenating TMH..
+Warning: could not find depth/max-length-of-match in too many hits information.
+Done.
+INFO  root                 - Concatenating entries
+INFO  root                 - 7,090,176 items, 10s, 708,875.82 items/s; used/avail/free/total/max mem: 1.24G/4.49G/4.45G/5.69G/5.73G
+INFO  root                 - 13,660,160 items, 20s, 682,939.71 items/s; used/avail/free/total/max mem: 1.06G/5.25G/5.25G/6.31G/6.31G
+INFO  root                 - 20,420,608 items, 30s, 680,528.14 items/s; used/avail/free/total/max mem: 483.93M/5.40G/5.40G/5.88G/5.88G
+INFO  root                 - 27,460,608 items, 40s, 686,309.31 items/s; used/avail/free/total/max mem: 198.65M/5.53G/5.30G/5.49G/5.73G
+INFO  root                 - 34,590,720 items, 50s, 691,579.26 items/s; used/avail/free/total/max mem: 413.38M/5.31G/4.76G/5.17G/5.73G
+INFO  root                 - 40,900,608 items, 1m 0s, 681,461.00 items/s; used/avail/free/total/max mem: 154.07M/5.99G/5.99G/6.15G/6.15G
+INFO  root                 - 47,665,152 items, 1m 10s, 680,745.97 items/s; used/avail/free/total/max mem: 1.13G/4.64G/4.64G/5.77G/5.77G
+INFO  root                 - 54,460,416 items, 1m 20s, 680,568.04 items/s; used/avail/free/total/max mem: 672.40M/5.05G/4.73G/5.40G/5.73G
+INFO  root                 - 61,430,784 items, 1m 30s, 682,397.46 items/s; used/avail/free/total/max mem: 1.32G/4.84G/4.84G/6.16G/6.16G
+INFO  root                 - 68,456,448 items, 1m 40s, 684,413.91 items/s; used/avail/free/total/max mem: 149.83M/5.58G/5.55G/5.70G/5.73G
+INFO  root                 - 75,382,784 items, 1m 50s, 685,161.00 items/s; used/avail/free/total/max mem: 736.66M/4.99G/4.62G/5.36G/5.73G
+INFO  root                 - 82,239,488 items, 2m 0s, 685,203.45 items/s; used/avail/free/total/max mem: 268.65M/5.46G/5.19G/5.46G/5.73G
+INFO  root                 - Completed.
+INFO  root                 - Elapsed: 2m 9s [88,491,529 items, 685,757.58 items/s]; used/avail/free/total/max mem: 1.17G/4.77G/4.77G/5.94G/5.94G
+Total logical entries written: 88491529
+Total bytes written: 97350
+Average bytes/logical entry: 0.0011001053
+Min query index: 0
+Max query index: 86965017
+Number of queries: 87188554
+Number of targets: 84
+Wrote a total of 88491529 alignment entries.
+Number of alignment entries realigned in the proximity of indels: 0 (0.00 % of total)
+
+real	2m10.646s
+user	2m17.632s
+sys	0m2.817s
+job completed
+total 2.8G
+-rw-r--r--  1 gobyweb icb   22 Jun 10 19:49 MYHZZJH-null.tmh
+-rw-r--r--  1 gobyweb icb 1.6K Jun 10 19:49 MYHZZJH.compact-file-stats.txt
+-rw-r--r--  1 gobyweb icb  14K Jun 10 19:49 MYHZZJH-null.stats
+-rw-r--r--  1 gobyweb icb 104K Jun 10 19:49 MYHZZJH-null.entries
+-rw-r--r--  1 gobyweb icb  854 Jun 10 19:49 MYHZZJH-null.header
+-rw-r--r--  1 gobyweb icb  55K Jun 10 19:49 MYHZZJH-null.index
+-rw-r--r--  1 gobyweb icb 2.8G May 13 20:05 MYHZZJH.bam
+drwxr-xr-x  2 gobyweb icb 4.0K Apr 19 07:07 .
+drwxr-xr-x 14 gobyweb icb 4.0K Apr 13 16:18 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+MYHZZJH-null total size (106212+854+55367) = 162433 MYHZZJH-(no-type) total size (2997317402) = 2997317402
+:bits per base
+/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_null/MYHZZJH//MYHZZJH.compact-file-stats.txt : 0.130735

@@ -1,0 +1,119 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139172
+SGE: job name is XAAOBVT-goby_gzip-TO-bam
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139172.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139172.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/goby_gzip-TO-bam/XAAOBVT/
++++
++++ Timing performing goby_gzip to bam for XAAOBVT
++++
+INFO  CompactToSAMMode     - 269,312 items, 10s, 26,923.12 items/s; used/avail/free/total/max mem: 1.63G/4.54G/4.54G/6.17G/6.17G
+INFO  CompactToSAMMode     - 576,512 items, 20s, 28,792.49 items/s; used/avail/free/total/max mem: 2.62G/3.56G/3.56G/6.17G/6.17G
+INFO  CompactToSAMMode     - 900,096 items, 30s, 29,845.02 items/s; used/avail/free/total/max mem: 2.40G/3.77G/3.77G/6.17G/6.17G
+INFO  CompactToSAMMode     - 1,225,728 items, 40s, 30,518.84 items/s; used/avail/free/total/max mem: 2.59G/3.13G/3.13G/5.73G/5.73G
+INFO  CompactToSAMMode     - 1,537,024 items, 50s, 30,639.37 items/s; used/avail/free/total/max mem: 2.70G/3.03G/3.03G/5.73G/5.73G
+INFO  CompactToSAMMode     - 1,844,224 items, 1m 0s, 30,644.11 items/s; used/avail/free/total/max mem: 2.12G/3.61G/3.61G/5.73G/5.73G
+INFO  CompactToSAMMode     - 2,190,336 items, 1m 10s, 31,208.04 items/s; used/avail/free/total/max mem: 2.39G/3.34G/3.34G/5.73G/5.73G
+INFO  CompactToSAMMode     - 2,511,872 items, 1m 20s, 31,322.05 items/s; used/avail/free/total/max mem: 2.65G/3.08G/3.08G/5.73G/5.73G
+INFO  CompactToSAMMode     - 2,875,392 items, 1m 30s, 31,879.37 items/s; used/avail/free/total/max mem: 2.29G/3.44G/3.44G/5.73G/5.73G
+INFO  CompactToSAMMode     - 3,238,912 items, 1m 40s, 32,319.96 items/s; used/avail/free/total/max mem: 2.49G/3.28G/3.28G/5.78G/5.78G
+INFO  CompactToSAMMode     - 3,558,400 items, 1m 50s, 32,280.42 items/s; used/avail/free/total/max mem: 2.79G/3.05G/3.05G/5.84G/5.84G
+INFO  CompactToSAMMode     - 3,912,704 items, 2m 0s, 32,539.16 items/s; used/avail/free/total/max mem: 3.10G/2.81G/2.81G/5.91G/5.91G
+INFO  CompactToSAMMode     - 4,265,984 items, 2m 10s, 32,748.00 items/s; used/avail/free/total/max mem: 3.02G/2.94G/2.94G/5.96G/5.96G
+INFO  CompactToSAMMode     - 4,593,664 items, 2m 20s, 32,744.06 items/s; used/avail/free/total/max mem: 2.72G/3.29G/3.29G/6.01G/6.01G
+INFO  CompactToSAMMode     - 4,941,824 items, 2m 30s, 32,878.42 items/s; used/avail/free/total/max mem: 2.62G/3.43G/3.43G/6.05G/6.05G
+INFO  CompactToSAMMode     - 5,292,032 items, 2m 40s, 33,011.65 items/s; used/avail/free/total/max mem: 2.20G/3.90G/3.90G/6.10G/6.10G
+INFO  CompactToSAMMode     - 5,648,384 items, 2m 50s, 33,163.95 items/s; used/avail/free/total/max mem: 3.33G/2.82G/2.82G/6.15G/6.15G
+INFO  CompactToSAMMode     - 5,999,616 items, 3m 0s, 33,271.13 items/s; used/avail/free/total/max mem: 2.56G/3.63G/3.63G/6.18G/6.18G
+INFO  CompactToSAMMode     - 6,344,704 items, 3m 10s, 33,332.83 items/s; used/avail/free/total/max mem: 3.48G/2.70G/2.70G/6.18G/6.18G
+INFO  CompactToSAMMode     - 6,700,032 items, 3m 20s, 33,426.95 items/s; used/avail/free/total/max mem: 2.74G/3.47G/3.47G/6.20G/6.20G
+INFO  CompactToSAMMode     - 7,063,552 items, 3m 30s, 33,562.76 items/s; used/avail/free/total/max mem: 3.56G/2.67G/2.67G/6.23G/6.23G
+INFO  CompactToSAMMode     - 7,405,568 items, 3m 40s, 33,591.44 items/s; used/avail/free/total/max mem: 2.62G/3.63G/3.63G/6.25G/6.25G
+INFO  CompactToSAMMode     - 7,754,752 items, 3m 50s, 33,645.95 items/s; used/avail/free/total/max mem: 3.27G/2.98G/2.98G/6.25G/6.25G
+INFO  CompactToSAMMode     - 8,103,936 items, 4m 0s, 33,698.58 items/s; used/avail/free/total/max mem: 2.27G/3.99G/3.99G/6.26G/6.26G
+INFO  CompactToSAMMode     - 8,466,432 items, 4m 10s, 33,799.48 items/s; used/avail/free/total/max mem: 2.98G/3.31G/3.31G/6.28G/6.28G
+INFO  CompactToSAMMode     - 8,834,048 items, 4m 20s, 33,900.18 items/s; used/avail/free/total/max mem: 2.01G/4.28G/4.28G/6.29G/6.29G
+INFO  CompactToSAMMode     - 9,207,808 items, 4m 30s, 34,026.87 items/s; used/avail/free/total/max mem: 2.79G/3.50G/3.50G/6.29G/6.29G
+INFO  CompactToSAMMode     - 9,578,496 items, 4m 40s, 34,133.33 items/s; used/avail/free/total/max mem: 3.52G/2.79G/2.79G/6.30G/6.30G
+INFO  CompactToSAMMode     - 9,939,968 items, 4m 50s, 34,202.63 items/s; used/avail/free/total/max mem: 2.47G/3.84G/3.84G/6.30G/6.30G
+INFO  CompactToSAMMode     - 10,300,416 items, 5m 0s, 34,250.35 items/s; used/avail/free/total/max mem: 3.22G/3.08G/3.08G/6.30G/6.30G
+INFO  CompactToSAMMode     - 10,672,128 items, 5m 10s, 34,342.03 items/s; used/avail/free/total/max mem: 3.80G/2.51G/2.51G/6.31G/6.31G
+INFO  CompactToSAMMode     - 11,033,600 items, 5m 20s, 34,397.55 items/s; used/avail/free/total/max mem: 2.62G/3.69G/3.69G/6.31G/6.31G
+INFO  CompactToSAMMode     - 11,413,504 items, 5m 30s, 34,504.40 items/s; used/avail/free/total/max mem: 3.42G/2.89G/2.89G/6.31G/6.31G
+INFO  CompactToSAMMode     - 11,784,192 items, 5m 40s, 34,578.33 items/s; used/avail/free/total/max mem: 2.17G/4.15G/4.15G/6.32G/6.32G
+INFO  CompactToSAMMode     - 12,155,904 items, 5m 50s, 34,652.25 items/s; used/avail/free/total/max mem: 2.89G/3.43G/3.43G/6.32G/6.32G
+INFO  CompactToSAMMode     - 12,529,664 items, 6m 0s, 34,727.74 items/s; used/avail/free/total/max mem: 3.60G/2.64G/2.64G/6.23G/6.23G
+INFO  CompactToSAMMode     - 12,900,352 items, 6m 10s, 34,779.62 items/s; used/avail/free/total/max mem: 2.51G/3.78G/3.78G/6.29G/6.29G
+INFO  CompactToSAMMode     - 13,281,280 items, 6m 20s, 34,864.49 items/s; used/avail/free/total/max mem: 3.12G/3.20G/3.20G/6.32G/6.32G
+INFO  CompactToSAMMode     - 13,665,280 items, 6m 30s, 34,952.60 items/s; used/avail/free/total/max mem: 3.79G/2.41G/2.41G/6.20G/6.20G
+INFO  CompactToSAMMode     - 14,030,848 items, 6m 40s, 34,991.30 items/s; used/avail/free/total/max mem: 2.73G/3.58G/3.58G/6.31G/6.31G
+INFO  CompactToSAMMode     - 14,413,824 items, 6m 50s, 35,071.07 items/s; used/avail/free/total/max mem: 3.53G/2.77G/2.77G/6.30G/6.30G
+INFO  CompactToSAMMode     - 14,785,536 items, 7m 0s, 35,120.37 items/s; used/avail/free/total/max mem: 2.32G/3.99G/3.99G/6.31G/6.31G
+INFO  CompactToSAMMode     - 15,159,296 items, 7m 10s, 35,172.71 items/s; used/avail/free/total/max mem: 3.04G/3.20G/3.20G/6.24G/6.24G
+INFO  CompactToSAMMode     - 15,513,600 items, 7m 20s, 35,178.47 items/s; used/avail/free/total/max mem: 3.67G/2.63G/2.63G/6.30G/6.30G
+INFO  CompactToSAMMode     - 15,881,216 items, 7m 31s, 35,211.93 items/s; used/avail/free/total/max mem: 2.23G/4.08G/4.08G/6.30G/6.30G
+INFO  CompactToSAMMode     - 16,259,072 items, 7m 41s, 35,266.08 items/s; used/avail/free/total/max mem: 2.83G/3.47G/3.47G/6.30G/6.30G
+INFO  CompactToSAMMode     - 16,611,328 items, 7m 51s, 35,263.94 items/s; used/avail/free/total/max mem: 3.37G/2.94G/2.94G/6.31G/6.31G
+INFO  CompactToSAMMode     - 16,990,208 items, 8m 1s, 35,312.33 items/s; used/avail/free/total/max mem: 2.01G/4.31G/4.31G/6.32G/6.32G
+INFO  CompactToSAMMode     - 17,353,728 items, 8m 11s, 35,331.84 items/s; used/avail/free/total/max mem: 2.70G/3.59G/3.59G/6.29G/6.29G
+INFO  CompactToSAMMode     - 17,713,152 items, 8m 21s, 35,343.88 items/s; used/avail/free/total/max mem: 3.42G/2.90G/2.90G/6.32G/6.32G
+INFO  CompactToSAMMode     - 18,049,024 items, 8m 31s, 35,308.96 items/s; used/avail/free/total/max mem: 3.82G/2.48G/2.48G/6.30G/6.30G
+INFO  CompactToSAMMode     - 18,400,256 items, 8m 41s, 35,296.26 items/s; used/avail/free/total/max mem: 2.42G/3.86G/3.86G/6.28G/6.28G
+INFO  CompactToSAMMode     - 18,770,944 items, 8m 51s, 35,328.02 items/s; used/avail/free/total/max mem: 2.88G/3.43G/3.43G/6.32G/6.32G
+INFO  CompactToSAMMode     - 19,143,680 items, 9m 1s, 35,362.66 items/s; used/avail/free/total/max mem: 3.49G/2.82G/2.82G/6.32G/6.32G
+INFO  CompactToSAMMode     - 19,495,936 items, 9m 11s, 35,358.50 items/s; used/avail/free/total/max mem: 3.86G/2.47G/2.47G/6.32G/6.32G
+INFO  CompactToSAMMode     - 19,860,480 items, 9m 21s, 35,376.26 items/s; used/avail/free/total/max mem: 2.50G/3.82G/3.82G/6.32G/6.32G
+
+real	9m27.197s
+user	12m47.522s
+sys	0m8.706s
++++
++++ Indexing .bam file, NOT TIMING
++++
+job completed
+total 647M
+-rw-r--r--  1 gobyweb icb 1.7K Jun 10 17:50 XAAOBVT.compact-file-stats.txt
+-rw-r--r--  1 gobyweb icb 177K Jun 10 17:50 XAAOBVT.bam.bai
+-rw-r--r--  1 gobyweb icb 646M Jun 10 17:50 XAAOBVT.bam
+drwxr-xr-x  2 gobyweb icb 4.0K Apr 27 22:14 .
+drwxr-xr-x 12 gobyweb icb 4.0K Apr 12 17:28 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+XAAOBVT-(no-type) total size (677159322) = 677159322
+:bits per base
+/home/gobyweb/reads-for-paper/results/goby_gzip-TO-bam/XAAOBVT//XAAOBVT.compact-file-stats.txt : 0.183438

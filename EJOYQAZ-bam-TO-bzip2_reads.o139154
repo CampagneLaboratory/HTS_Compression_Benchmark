@@ -1,0 +1,136 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: jane.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is jane.pbtech
+SGE: job identifier is 139154
+SGE: job name is EJOYQAZ-bam-TO-bzip2_reads
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139154.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139154.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-bzip2_reads/EJOYQAZ/
++++
++++ Timing BAM to bzip2 reads EJOYQAZ
++++
+WARN  MessageChunksWriter  - Using chunk-size=20000
+INFO  SamExtractReadsMode  - 160,768 items, 10s, 15,365.38 items/s
+INFO  SamExtractReadsMode  - 320,512 items, 20s, 15,494.15 items/s
+INFO  SamExtractReadsMode  - 480,256 items, 30s, 15,599.31 items/s
+INFO  SamExtractReadsMode  - 640,000 items, 40s, 15,691.27 items/s
+INFO  SamExtractReadsMode  - 820,224 items, 51s, 15,950.84 items/s
+INFO  SamExtractReadsMode  - 1,000,448 items, 1m 2s, 16,031.02 items/s
+INFO  SamExtractReadsMode  - 1,160,192 items, 1m 12s, 16,016.35 items/s
+INFO  SamExtractReadsMode  - 1,340,416 items, 1m 23s, 16,070.79 items/s
+INFO  SamExtractReadsMode  - 1,520,640 items, 1m 34s, 16,081.22 items/s
+INFO  SamExtractReadsMode  - 1,700,864 items, 1m 45s, 16,174.83 items/s
+INFO  SamExtractReadsMode  - 1,880,064 items, 1m 56s, 16,182.89 items/s
+INFO  SamExtractReadsMode  - 2,060,288 items, 2m 7s, 16,166.10 items/s
+INFO  SamExtractReadsMode  - 2,240,512 items, 2m 18s, 16,192.06 items/s
+INFO  SamExtractReadsMode  - 2,420,736 items, 2m 29s, 16,159.46 items/s
+INFO  SamExtractReadsMode  - 2,580,480 items, 2m 39s, 16,131.02 items/s
+INFO  SamExtractReadsMode  - 2,740,224 items, 2m 50s, 16,111.86 items/s
+INFO  SamExtractReadsMode  - 2,900,992 items, 3m 0s, 16,074.56 items/s
+INFO  SamExtractReadsMode  - 3,060,736 items, 3m 10s, 16,034.11 items/s
+INFO  SamExtractReadsMode  - 3,220,480 items, 3m 21s, 15,991.90 items/s
+INFO  SamExtractReadsMode  - 3,380,224 items, 3m 31s, 15,989.71 items/s
+INFO  SamExtractReadsMode  - 3,560,448 items, 3m 42s, 16,021.74 items/s
+INFO  SamExtractReadsMode  - 3,740,672 items, 3m 52s, 16,058.52 items/s
+INFO  SamExtractReadsMode  - 3,900,416 items, 4m 3s, 16,023.47 items/s
+INFO  SamExtractReadsMode  - 4,060,160 items, 4m 13s, 16,011.23 items/s
+INFO  SamExtractReadsMode  - 4,240,384 items, 4m 24s, 16,020.49 items/s
+INFO  SamExtractReadsMode  - 4,400,128 items, 4m 34s, 16,015.26 items/s
+INFO  SamExtractReadsMode  - 4,560,896 items, 4m 45s, 15,995.45 items/s
+INFO  SamExtractReadsMode  - 4,723,712 items, 4m 55s, 16,005.10 items/s
+INFO  SamExtractReadsMode  - 4,900,864 items, 5m 6s, 15,998.64 items/s
+INFO  SamExtractReadsMode  - 5,080,064 items, 5m 17s, 16,012.61 items/s
+INFO  SamExtractReadsMode  - 5,260,288 items, 5m 27s, 16,040.45 items/s
+INFO  SamExtractReadsMode  - 5,440,512 items, 5m 38s, 16,061.31 items/s
+INFO  SamExtractReadsMode  - 5,620,736 items, 5m 49s, 16,098.07 items/s
+INFO  SamExtractReadsMode  - 5,800,960 items, 5m 59s, 16,127.13 items/s
+INFO  SamExtractReadsMode  - 5,980,160 items, 6m 10s, 16,155.39 items/s
+INFO  SamExtractReadsMode  - 6,160,384 items, 6m 21s, 16,153.09 items/s
+INFO  SamExtractReadsMode  - 6,332,416 items, 6m 31s, 16,179.88 items/s
+INFO  SamExtractReadsMode  - 6,500,352 items, 6m 41s, 16,180.78 items/s
+INFO  SamExtractReadsMode  - 6,680,576 items, 6m 52s, 16,201.11 items/s
+INFO  SamExtractReadsMode  - 6,860,800 items, 7m 3s, 16,217.62 items/s
+INFO  SamExtractReadsMode  - 7,040,000 items, 7m 14s, 16,220.34 items/s
+INFO  SamExtractReadsMode  - 7,220,224 items, 7m 24s, 16,241.32 items/s
+INFO  SamExtractReadsMode  - 7,400,448 items, 7m 35s, 16,244.48 items/s
+INFO  SamExtractReadsMode  - 7,580,672 items, 7m 46s, 16,256.27 items/s
+INFO  SamExtractReadsMode  - 7,756,800 items, 7m 56s, 16,284.65 items/s
+INFO  SamExtractReadsMode  - 7,900,160 items, 8m 6s, 16,239.07 items/s
+INFO  SamExtractReadsMode  - 8,060,928 items, 8m 16s, 16,233.12 items/s
+INFO  SamExtractReadsMode  - 8,220,672 items, 8m 26s, 16,227.63 items/s
+INFO  SamExtractReadsMode  - 8,380,416 items, 8m 37s, 16,201.18 items/s
+INFO  SamExtractReadsMode  - 8,540,160 items, 8m 47s, 16,181.38 items/s
+INFO  SamExtractReadsMode  - 8,700,928 items, 8m 58s, 16,150.51 items/s
+INFO  SamExtractReadsMode  - 8,860,672 items, 9m 9s, 16,119.28 items/s
+INFO  SamExtractReadsMode  - 9,020,416 items, 9m 20s, 16,101.62 items/s
+INFO  SamExtractReadsMode  - 9,180,160 items, 9m 30s, 16,089.29 items/s
+INFO  SamExtractReadsMode  - 9,340,928 items, 9m 41s, 16,073.76 items/s
+INFO  SamExtractReadsMode  - 9,500,672 items, 9m 51s, 16,058.44 items/s
+INFO  SamExtractReadsMode  - 9,660,416 items, 10m 1s, 16,054.19 items/s
+INFO  SamExtractReadsMode  - 9,820,160 items, 10m 12s, 16,045.57 items/s
+INFO  SamExtractReadsMode  - 9,980,928 items, 10m 22s, 16,032.54 items/s
+INFO  SamExtractReadsMode  - 10,143,744 items, 10m 32s, 16,036.37 items/s
+INFO  SamExtractReadsMode  - 10,304,512 items, 10m 42s, 16,036.93 items/s
+INFO  SamExtractReadsMode  - 10,460,160 items, 10m 52s, 16,023.68 items/s
+INFO  SamExtractReadsMode  - 10,640,384 items, 11m 3s, 16,034.65 items/s
+INFO  SamExtractReadsMode  - 10,800,128 items, 11m 13s, 16,025.52 items/s
+INFO  SamExtractReadsMode  - 10,980,352 items, 11m 24s, 16,035.35 items/s
+INFO  SamExtractReadsMode  - 11,160,576 items, 11m 35s, 16,050.23 items/s
+INFO  SamExtractReadsMode  - 11,320,320 items, 11m 45s, 16,042.22 items/s
+INFO  SamExtractReadsMode  - 11,500,544 items, 11m 56s, 16,056.61 items/s
+INFO  SamExtractReadsMode  - 11,680,768 items, 12m 6s, 16,068.08 items/s
+INFO  SamExtractReadsMode  - 11,860,992 items, 12m 17s, 16,073.70 items/s
+INFO  SamExtractReadsMode  - 12,040,192 items, 12m 28s, 16,084.17 items/s
+INFO  SamExtractReadsMode  - 12,220,416 items, 12m 39s, 16,094.74 items/s
+INFO  SamExtractReadsMode  - 12,400,640 items, 12m 50s, 16,098.37 items/s
+INFO  SamExtractReadsMode  - 12,560,384 items, 13m 0s, 16,090.64 items/s
+Total number of reads written 12602853
+Number of paired-end reads written 2705076
+
+real	13m4.964s
+user	13m6.847s
+sys	0m2.567s
+job completed
+total 797M
+-rw-r--r--  1 gobyweb icb 796M Jun 10 17:12 EJOYQAZ.compact-reads
+-rw-r--r--  1 gobyweb icb  593 May 12 12:26 EJOYQAZ.compact-file-stats.txt
+drwxr-xr-x  2 gobyweb icb 4.0K Apr 13 17:06 .
+drwxr-xr-x 13 gobyweb icb 4.0K Apr 13 16:50 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+EJOYQAZ-(no-type) total size (834053350) = 834053350
+:bits per base
+/home/gobyweb/reads-for-paper/results/bam-TO-bzip2_reads/EJOYQAZ//EJOYQAZ.compact-file-stats.txt : unknown

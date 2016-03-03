@@ -1,0 +1,115 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139070
+SGE: job name is UCCWRUX-bam-TO-goby_gzip
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139070.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139070.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-goby_gzip/UCCWRUX/
++++
++++ Timing converting BAM to goby_gzip UCCWRUX
++++
+Store read origin: true
+Loading genome /scratchLocal/gobyweb/input-data/reference-db/goby-benchmark-paper/hg18/random-access-genome
+Done loading genome 
+WARN  MessageChunksWriter  - Using chunk-size=100000
+WARN  SAMToCompactMode     - targets: 49, records: 45
+INFO  SAMToCompactMode     - 410,624 items, 10s, 38,147.90 items/s; used/avail/free/total/max mem: 1.31G/6.93G/6.93G/8.23G/8.23G
+INFO  SAMToCompactMode     - 811,008 items, 20s, 38,874.89 items/s; used/avail/free/total/max mem: 2.20G/6.03G/6.03G/8.23G/8.23G
+INFO  SAMToCompactMode     - 1,234,944 items, 30s, 40,008.55 items/s; used/avail/free/total/max mem: 3.00G/5.23G/5.23G/8.23G/8.23G
+INFO  SAMToCompactMode     - 1,684,480 items, 40s, 41,215.56 items/s; used/avail/free/total/max mem: 1.73G/5.91G/5.31G/7.04G/7.64G
+INFO  SAMToCompactMode     - 2,107,392 items, 50s, 41,424.57 items/s; used/avail/free/total/max mem: 1.74G/5.90G/5.90G/7.64G/7.64G
+INFO  SAMToCompactMode     - 2,530,304 items, 1m 0s, 41,564.20 items/s; used/avail/free/total/max mem: 1.73G/5.91G/5.91G/7.64G/7.64G
+INFO  SAMToCompactMode     - 2,990,080 items, 1m 10s, 42,180.94 items/s; used/avail/free/total/max mem: 1.82G/5.81G/5.81G/7.64G/7.64G
+INFO  SAMToCompactMode     - 3,410,944 items, 1m 21s, 42,008.77 items/s; used/avail/free/total/max mem: 1.89G/5.75G/5.70G/7.58G/7.64G
+INFO  SAMToCompactMode     - 3,899,392 items, 1m 31s, 42,757.90 items/s; used/avail/free/total/max mem: 1.75G/5.97G/5.97G/7.71G/7.71G
+INFO  SAMToCompactMode     - 4,381,696 items, 1m 41s, 43,294.82 items/s; used/avail/free/total/max mem: 2.31G/5.49G/5.49G/7.80G/7.80G
+INFO  SAMToCompactMode     - 4,876,288 items, 1m 51s, 43,845.60 items/s; used/avail/free/total/max mem: 2.47G/5.42G/5.42G/7.89G/7.89G
+INFO  SAMToCompactMode     - 5,340,160 items, 2m 1s, 44,051.64 items/s; used/avail/free/total/max mem: 2.32G/5.65G/5.65G/7.96G/7.96G
+INFO  SAMToCompactMode     - 5,779,456 items, 2m 11s, 44,042.00 items/s; used/avail/free/total/max mem: 1.79G/6.24G/6.24G/8.03G/8.03G
+INFO  SAMToCompactMode     - 6,246,400 items, 2m 21s, 44,228.56 items/s; used/avail/free/total/max mem: 3.23G/4.81G/4.81G/8.04G/8.04G
+INFO  SAMToCompactMode     - 6,744,064 items, 2m 31s, 44,590.33 items/s; used/avail/free/total/max mem: 2.63G/5.50G/5.50G/8.12G/8.12G
+INFO  SAMToCompactMode     - 7,245,824 items, 2m 41s, 44,936.18 items/s; used/avail/free/total/max mem: 1.67G/6.52G/6.52G/8.19G/8.19G
+INFO  SAMToCompactMode     - 7,710,720 items, 2m 51s, 45,026.89 items/s; used/avail/free/total/max mem: 2.65G/5.57G/5.57G/8.22G/8.22G
+INFO  SAMToCompactMode     - 8,164,352 items, 3m 1s, 45,044.70 items/s; used/avail/free/total/max mem: 3.42G/4.79G/4.79G/8.21G/8.21G
+INFO  SAMToCompactMode     - 8,610,816 items, 3m 11s, 44,923.57 items/s; used/avail/free/total/max mem: 1.91G/6.07G/6.07G/7.99G/7.99G
+INFO  SAMToCompactMode     - 9,101,312 items, 3m 21s, 45,126.82 items/s; used/avail/free/total/max mem: 2.95G/5.21G/5.21G/8.15G/8.15G
+INFO  SAMToCompactMode     - 9,586,688 items, 3m 31s, 45,285.16 items/s; used/avail/free/total/max mem: 1.85G/5.98G/5.98G/7.83G/7.83G
+INFO  SAMToCompactMode     - 10,091,520 items, 3m 41s, 45,519.63 items/s; used/avail/free/total/max mem: 3.12G/4.67G/4.67G/7.79G/7.79G
+INFO  SAMToCompactMode     - 10,592,256 items, 3m 51s, 45,716.18 items/s; used/avail/free/total/max mem: 2.41G/5.56G/5.56G/7.97G/7.97G
+INFO  SAMToCompactMode     - 11,090,944 items, 4m 1s, 45,887.04 items/s; used/avail/free/total/max mem: 3.67G/4.29G/4.29G/7.96G/7.96G
+INFO  SAMToCompactMode     - 11,581,440 items, 4m 11s, 46,011.59 items/s; used/avail/free/total/max mem: 2.29G/6.11G/6.11G/8.40G/8.40G
+INFO  SAMToCompactMode     - 12,096,512 items, 4m 21s, 46,221.58 items/s; used/avail/free/total/max mem: 3.10G/5.32G/5.32G/8.42G/8.42G
+INFO  SAMToCompactMode     - 12,610,560 items, 4m 31s, 46,362.86 items/s; used/avail/free/total/max mem: 3.97G/4.45G/4.45G/8.42G/8.42G
+INFO  SAMToCompactMode     - 13,104,128 items, 4m 42s, 46,467.72 items/s; used/avail/free/total/max mem: 2.10G/6.13G/6.13G/8.23G/8.23G
+INFO  SAMToCompactMode     - 13,593,600 items, 4m 52s, 46,551.99 items/s; used/avail/free/total/max mem: 2.81G/5.41G/5.41G/8.22G/8.22G
+INFO  SAMToCompactMode     - 14,093,312 items, 5m 2s, 46,665.05 items/s; used/avail/free/total/max mem: 3.68G/4.45G/4.45G/8.14G/8.14G
+INFO  SAMToCompactMode     - 14,586,880 items, 5m 12s, 46,749.37 items/s; used/avail/free/total/max mem: 2.19G/5.78G/5.78G/7.96G/7.96G
+INFO  SAMToCompactMode     - 15,084,544 items, 5m 22s, 46,842.92 items/s; used/avail/free/total/max mem: 3.21G/4.75G/4.75G/7.96G/7.96G
+INFO  SAMToCompactMode     - 15,610,880 items, 5m 32s, 46,943.24 items/s; used/avail/free/total/max mem: 2.25G/5.61G/5.61G/7.86G/7.86G
+INFO  SAMToCompactMode     - 16,110,592 items, 5m 43s, 46,944.61 items/s; used/avail/free/total/max mem: 3.47G/4.31G/4.31G/7.78G/7.78G
+INFO  SAMToCompactMode     - 16,610,304 items, 5m 53s, 47,004.22 items/s; used/avail/free/total/max mem: 2.70G/4.99G/4.99G/7.69G/7.69G
+INFO  SAMToCompactMode     - 17,142,784 items, 6m 3s, 47,174.75 items/s; used/avail/free/total/max mem: 2.28G/5.36G/5.31G/7.59G/7.64G
+INFO  SAMToCompactMode     - 17,669,120 items, 6m 13s, 47,320.44 items/s; used/avail/free/total/max mem: 1.99G/5.65G/5.50G/7.49G/7.64G
+INFO  SAMToCompactMode     - 18,210,816 items, 6m 23s, 47,442.90 items/s; used/avail/free/total/max mem: 1.85G/5.78G/5.72G/7.57G/7.64G
+INFO  SAMToCompactMode     - 18,740,224 items, 6m 33s, 47,582.26 items/s; used/avail/free/total/max mem: 3.35G/4.57G/4.57G/7.92G/7.92G
+INFO  SAMToCompactMode     - 19,272,704 items, 6m 43s, 47,721.96 items/s; used/avail/free/total/max mem: 2.43G/5.38G/5.38G/7.81G/7.81G
+Total logical entries written: 19623643
+Total bytes written: 330023487
+Average bytes/logical entry: 16.817646
+Min query index: 0
+Max query index: 9998460
+Number of queries: 19633644
+Number of targets: 49
+
+real	6m54.821s
+user	8m22.067s
+sys	0m13.783s
+job completed
+total 316M
+-rw-r--r--  1 gobyweb icb  643 Jun 10 13:30 UCCWRUX.header
+-rw-r--r--  1 gobyweb icb 1.6K Jun 10 13:30 UCCWRUX.index
+-rw-r--r--  1 gobyweb icb  243 Jun 10 13:30 UCCWRUX.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 13:30 UCCWRUX.tmh
+-rw-r--r--  1 gobyweb icb 316M Jun 10 13:30 UCCWRUX.entries
+-rw-r--r--  1 gobyweb icb 1.7K Jun 10 13:30 UCCWRUX.compact-file-stats.txt
+drwxr-xr-x 13 gobyweb icb 4.0K May 26 17:12 ..
+drwxr-xr-x  2 gobyweb icb 4.0K May 16 17:25 .
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+UCCWRUX-(no-type) total size (643+1621+330534651) = 330536915
+:bits per base
+/home/gobyweb/reads-for-paper/results/bam-TO-goby_gzip/UCCWRUX//UCCWRUX.compact-file-stats.txt : 0.168351

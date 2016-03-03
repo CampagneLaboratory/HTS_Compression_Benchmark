@@ -1,0 +1,308 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: jane.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is jane.pbtech
+SGE: job identifier is 139039
+SGE: job name is ZHUUJKS-bam-TO-goby_hybrid_domain_noclips
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139039.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139039.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-goby_hybrid_domain_noclips/ZHUUJKS/
++++
++++ Timing converting BAM to goby_hybrid_domain_noclips ZHUUJKS
++++
+Store read origin: true
+Loading genome /scratchLocal/gobyweb/input-data/reference-db/1000GENOMES.37/homo_sapiens/reference/random-access-genome
+Done loading genome 
+WARN  MessageChunksWriter  - Using chunk-size=100000
+INFO  SAMToCompactMode     - 995,328 items, 10s, 99,502.95 items/s; used/avail/free/total/max mem: 2.22G/6.01G/6.01G/8.23G/8.23G
+INFO  SAMToCompactMode     - 2,185,216 items, 20s, 109,233.49 items/s; used/avail/free/total/max mem: 2.40G/5.83G/5.83G/8.23G/8.23G
+INFO  SAMToCompactMode     - 3,371,008 items, 30s, 112,348.21 items/s; used/avail/free/total/max mem: 1.63G/6.01G/6.01G/7.64G/7.64G
+INFO  SAMToCompactMode     - 4,501,504 items, 40s, 112,515.10 items/s; used/avail/free/total/max mem: 2.13G/5.51G/5.51G/7.64G/7.64G
+INFO  SAMToCompactMode     - 5,603,328 items, 50s, 112,035.19 items/s; used/avail/free/total/max mem: 1.58G/6.06G/6.06G/7.64G/7.64G
+INFO  SAMToCompactMode     - 6,584,320 items, 1m 0s, 109,711.24 items/s; used/avail/free/total/max mem: 2.48G/5.15G/5.15G/7.63G/7.64G
+INFO  SAMToCompactMode     - 7,622,656 items, 1m 10s, 108,870.20 items/s; used/avail/free/total/max mem: 2.83G/5.03G/5.03G/7.86G/7.86G
+INFO  SAMToCompactMode     - 8,411,136 items, 1m 20s, 104,966.01 items/s; used/avail/free/total/max mem: 1.91G/6.06G/6.06G/7.97G/7.97G
+INFO  SAMToCompactMode     - 9,419,776 items, 1m 30s, 104,506.26 items/s; used/avail/free/total/max mem: 2.37G/5.66G/5.66G/8.04G/8.04G
+INFO  SAMToCompactMode     - 10,447,872 items, 1m 40s, 104,268.10 items/s; used/avail/free/total/max mem: 2.56G/5.55G/5.55G/8.10G/8.10G
+INFO  SAMToCompactMode     - 11,419,648 items, 1m 50s, 103,518.54 items/s; used/avail/free/total/max mem: 2.55G/5.09G/5.09G/7.65G/7.65G
+INFO  SAMToCompactMode     - 12,403,712 items, 2m 0s, 103,090.22 items/s; used/avail/free/total/max mem: 2.71G/5.16G/5.16G/7.88G/7.88G
+INFO  SAMToCompactMode     - 13,359,104 items, 2m 10s, 102,503.71 items/s; used/avail/free/total/max mem: 2.94G/5.34G/5.34G/8.28G/8.28G
+INFO  SAMToCompactMode     - 14,295,040 items, 2m 20s, 101,783.18 items/s; used/avail/free/total/max mem: 2.35G/5.70G/5.70G/8.05G/8.05G
+INFO  SAMToCompactMode     - 15,259,648 items, 2m 30s, 101,357.99 items/s; used/avail/free/total/max mem: 1.85G/6.08G/6.08G/7.93G/7.93G
+INFO  SAMToCompactMode     - 16,154,624 items, 2m 40s, 100,614.88 items/s; used/avail/free/total/max mem: 3.33G/4.67G/4.67G/8.00G/8.00G
+INFO  SAMToCompactMode     - 17,072,128 items, 2m 50s, 100,095.15 items/s; used/avail/free/total/max mem: 2.80G/5.07G/5.07G/7.87G/7.87G
+INFO  SAMToCompactMode     - 18,001,920 items, 3m 0s, 99,699.94 items/s; used/avail/free/total/max mem: 2.54G/5.23G/5.23G/7.76G/7.76G
+INFO  SAMToCompactMode     - 18,921,472 items, 3m 10s, 99,240.92 items/s; used/avail/free/total/max mem: 2.74G/4.92G/4.92G/7.65G/7.65G
+INFO  SAMToCompactMode     - 19,779,584 items, 3m 20s, 98,569.68 items/s; used/avail/free/total/max mem: 3.33G/4.30G/4.22G/7.56G/7.64G
+INFO  SAMToCompactMode     - 20,480,000 items, 3m 30s, 97,166.61 items/s; used/avail/free/total/max mem: 2.22G/5.68G/5.68G/7.90G/7.90G
+INFO  SAMToCompactMode     - 21,392,384 items, 3m 40s, 96,895.45 items/s; used/avail/free/total/max mem: 1.82G/6.51G/6.51G/8.33G/8.33G
+INFO  SAMToCompactMode     - 22,284,288 items, 3m 50s, 96,561.16 items/s; used/avail/free/total/max mem: 2.97G/5.37G/5.37G/8.34G/8.34G
+INFO  SAMToCompactMode     - 23,212,032 items, 4m 1s, 96,301.50 items/s; used/avail/free/total/max mem: 4.36G/4.12G/4.12G/8.49G/8.49G
+INFO  SAMToCompactMode     - 24,065,024 items, 4m 11s, 95,859.40 items/s; used/avail/free/total/max mem: 2.84G/5.44G/5.44G/8.27G/8.27G
+INFO  SAMToCompactMode     - 24,901,632 items, 4m 21s, 95,391.01 items/s; used/avail/free/total/max mem: 3.96G/4.26G/4.26G/8.21G/8.21G
+INFO  SAMToCompactMode     - 25,639,936 items, 4m 31s, 94,592.76 items/s; used/avail/free/total/max mem: 3.15G/5.15G/5.15G/8.30G/8.30G
+INFO  SAMToCompactMode     - 26,516,480 items, 4m 41s, 94,345.22 items/s; used/avail/free/total/max mem: 4.38G/3.79G/3.79G/8.18G/8.18G
+INFO  SAMToCompactMode     - 27,411,456 items, 4m 51s, 94,176.73 items/s; used/avail/free/total/max mem: 3.60G/4.47G/4.47G/8.07G/8.07G
+INFO  SAMToCompactMode     - 28,320,768 items, 5m 1s, 94,020.84 items/s; used/avail/free/total/max mem: 3.01G/4.92G/4.92G/7.93G/7.93G
+INFO  SAMToCompactMode     - 29,221,888 items, 5m 11s, 93,893.73 items/s; used/avail/free/total/max mem: 2.52G/5.30G/5.30G/7.82G/7.82G
+INFO  SAMToCompactMode     - 30,126,080 items, 5m 21s, 93,784.10 items/s; used/avail/free/total/max mem: 4.25G/3.53G/3.53G/7.78G/7.78G
+INFO  SAMToCompactMode     - 31,019,008 items, 5m 31s, 93,614.59 items/s; used/avail/free/total/max mem: 3.97G/3.71G/3.71G/7.69G/7.69G
+INFO  SAMToCompactMode     - 31,901,696 items, 5m 41s, 93,457.44 items/s; used/avail/free/total/max mem: 3.89G/3.75G/3.70G/7.59G/7.64G
+INFO  SAMToCompactMode     - 32,705,536 items, 5m 51s, 93,084.02 items/s; used/avail/free/total/max mem: 2.54G/5.10G/4.92G/7.46G/7.64G
+INFO  SAMToCompactMode     - 33,569,792 items, 6m 1s, 92,896.93 items/s; used/avail/free/total/max mem: 3.06G/4.58G/4.33G/7.39G/7.64G
+INFO  SAMToCompactMode     - 34,409,472 items, 6m 11s, 92,612.60 items/s; used/avail/free/total/max mem: 3.39G/4.25G/3.93G/7.32G/7.64G
+INFO  SAMToCompactMode     - 35,248,128 items, 6m 21s, 92,382.14 items/s; used/avail/free/total/max mem: 2.33G/5.30G/4.91G/7.24G/7.64G
+INFO  SAMToCompactMode     - 36,087,808 items, 6m 31s, 92,149.36 items/s; used/avail/free/total/max mem: 3.03G/4.60G/4.13G/7.16G/7.64G
+INFO  SAMToCompactMode     - 36,917,248 items, 6m 41s, 91,919.24 items/s; used/avail/free/total/max mem: 2.44G/5.20G/4.95G/7.39G/7.64G
+INFO  SAMToCompactMode     - 37,706,752 items, 6m 51s, 91,602.62 items/s; used/avail/free/total/max mem: 4.22G/3.51G/3.51G/7.72G/7.72G
+INFO  SAMToCompactMode     - 38,462,464 items, 7m 1s, 91,195.14 items/s; used/avail/free/total/max mem: 3.45G/4.32G/4.32G/7.77G/7.77G
+INFO  SAMToCompactMode     - 39,217,152 items, 7m 11s, 90,829.64 items/s; used/avail/free/total/max mem: 2.90G/4.78G/4.78G/7.68G/7.68G
+INFO  SAMToCompactMode     - 40,094,720 items, 7m 21s, 90,725.58 items/s; used/avail/free/total/max mem: 2.88G/4.91G/4.91G/7.79G/7.79G
+INFO  SAMToCompactMode     - 40,912,896 items, 7m 31s, 90,526.47 items/s; used/avail/free/total/max mem: 4.68G/3.50G/3.50G/8.19G/8.19G
+INFO  SAMToCompactMode     - 41,701,376 items, 7m 41s, 90,272.88 items/s; used/avail/free/total/max mem: 3.30G/5.25G/5.25G/8.54G/8.54G
+INFO  SAMToCompactMode     - 42,640,384 items, 7m 51s, 90,348.60 items/s; used/avail/free/total/max mem: 4.01G/4.41G/4.41G/8.42G/8.42G
+INFO  SAMToCompactMode     - 43,555,840 items, 8m 1s, 90,373.25 items/s; used/avail/free/total/max mem: 4.76G/3.59G/3.59G/8.35G/8.35G
+INFO  SAMToCompactMode     - 44,390,400 items, 8m 11s, 90,232.46 items/s; used/avail/free/total/max mem: 3.15G/5.07G/5.07G/8.22G/8.22G
+Total logical entries written: 47181221
+Total bytes written: 220067106
+Average bytes/logical entry: 4.6642942
+Min query index: 0
+Max query index: 44491674
+Number of queries: 44897962
+Number of targets: 84
+
+real	8m21.309s
+user	9m13.436s
+sys	0m22.209s
+DEBUG SortMode             - sort-large will run with 0 threads (0 == no thread pool)
+DEBUG SortMode             - Splitting file and sorting all splits
+INFO  SortMode             - [01] Split file into 23 pieces
+DEBUG SortMode             - [01] Sorting [[0,10000000]]
+DEBUG SortMode             - [01] Sorting [[0,10000000]] to /tmp/sorted-ZPCPBXLMJA
+WARN  MessageChunksWriter  - Using chunk-size=10000
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[0,10000000]] with tag ZPCPBXLMJA...
+DEBUG SortMode             - [01] Writing TMH
+Warning: could not find depth/max-length-of-match in too many hits information.
+INFO  SortMode             - 1 split-sorts, 11s, 5.13 split-sorts/m; 4% done, 2m 8s to end; used/avail/free/total/max mem: 2.95G/5.28G/5.28G/8.23G/8.23G
+DEBUG SortMode             - [01] Sorting [[10000000,20000000]]
+DEBUG SortMode             - [01] Sorting [[10000000,20000000]] to /tmp/sorted-NWIBOZJCPT
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[10000000,20000000]] with tag NWIBOZJCPT...
+DEBUG SortMode             - [01] Sorting [[20000000,30000000]]
+DEBUG SortMode             - [01] Sorting [[20000000,30000000]] to /tmp/sorted-NKPNPBNGAG
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[20000000,30000000]] with tag NKPNPBNGAG...
+INFO  SortMode             - 3 split-sorts, 30s, 5.87 split-sorts/m; 13% done, 2m 33s to end; used/avail/free/total/max mem: 1.18G/6.45G/6.45G/7.64G/7.64G
+DEBUG SortMode             - [01] Sorting [[30000000,40000000]]
+DEBUG SortMode             - [01] Sorting [[30000000,40000000]] to /tmp/sorted-DUBWLZTVET
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[30000000,40000000]] with tag DUBWLZTVET...
+DEBUG SortMode             - [01] Sorting [[40000000,50000000]]
+DEBUG SortMode             - [01] Sorting [[40000000,50000000]] to /tmp/sorted-ZEBLYXWLNB
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[40000000,50000000]] with tag ZEBLYXWLNB...
+INFO  SortMode             - 5 split-sorts, 48s, 6.24 split-sorts/m; 21% done, 2m 24s to end; used/avail/free/total/max mem: 1.43G/6.22G/6.22G/7.65G/7.65G
+DEBUG SortMode             - [01] Sorting [[50000000,60000000]]
+DEBUG SortMode             - [01] Sorting [[50000000,60000000]] to /tmp/sorted-JOQEDBKFRQ
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[50000000,60000000]] with tag JOQEDBKFRQ...
+DEBUG SortMode             - [01] Sorting [[60000000,70000000]]
+DEBUG SortMode             - [01] Sorting [[60000000,70000000]] to /tmp/sorted-YNDERQPLQF
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[60000000,70000000]] with tag YNDERQPLQF...
+INFO  SortMode             - 7 split-sorts, 1m 4s, 6.55 split-sorts/m; 30% done, 2m 8s to end; used/avail/free/total/max mem: 1.46G/6.36G/6.36G/7.82G/7.82G
+DEBUG SortMode             - [01] Sorting [[70000000,80000000]]
+DEBUG SortMode             - [01] Sorting [[70000000,80000000]] to /tmp/sorted-YBZUBGMMHZ
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[70000000,80000000]] with tag YBZUBGMMHZ...
+DEBUG SortMode             - [01] Sorting [[80000000,90000000]]
+DEBUG SortMode             - [01] Sorting [[80000000,90000000]] to /tmp/sorted-LTLMSGOCWA
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[80000000,90000000]] with tag LTLMSGOCWA...
+INFO  SortMode             - 9 split-sorts, 1m 22s, 6.52 split-sorts/m; 39% done, 1m 55s to end; used/avail/free/total/max mem: 1.54G/6.39G/6.39G/7.93G/7.93G
+DEBUG SortMode             - [01] Sorting [[90000000,100000000]]
+DEBUG SortMode             - [01] Sorting [[90000000,100000000]] to /tmp/sorted-XEWUUHJXNA
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[90000000,100000000]] with tag XEWUUHJXNA...
+DEBUG SortMode             - [01] Sorting [[100000000,110000000]]
+DEBUG SortMode             - [01] Sorting [[100000000,110000000]] to /tmp/sorted-ESRMGPWNMO
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[100000000,110000000]] with tag ESRMGPWNMO...
+INFO  SortMode             - 11 split-sorts, 1m 41s, 6.50 split-sorts/m; 47% done, 1m 41s to end; used/avail/free/total/max mem: 1.67G/5.97G/5.88G/7.55G/7.64G
+DEBUG SortMode             - [01] Sorting [[110000000,120000000]]
+DEBUG SortMode             - [01] Sorting [[110000000,120000000]] to /tmp/sorted-AWPIXEPHAS
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[110000000,120000000]] with tag AWPIXEPHAS...
+DEBUG SortMode             - [01] Sorting [[120000000,130000000]]
+DEBUG SortMode             - [01] Sorting [[120000000,130000000]] to /tmp/sorted-FVPAADOHVT
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[120000000,130000000]] with tag FVPAADOHVT...
+INFO  SortMode             - 13 split-sorts, 1m 59s, 6.55 split-sorts/m; 56% done, 1m 25s to end; used/avail/free/total/max mem: 1.43G/6.47G/6.47G/7.90G/7.90G
+DEBUG SortMode             - [01] Sorting [[130000000,140000000]]
+DEBUG SortMode             - [01] Sorting [[130000000,140000000]] to /tmp/sorted-DZQCVFYBXT
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[130000000,140000000]] with tag DZQCVFYBXT...
+DEBUG SortMode             - [01] Sorting [[140000000,150000000]]
+DEBUG SortMode             - [01] Sorting [[140000000,150000000]] to /tmp/sorted-AVJTFNSKBK
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[140000000,150000000]] with tag AVJTFNSKBK...
+INFO  SortMode             - 15 split-sorts, 2m 15s, 6.63 split-sorts/m; 65% done, 1m 7s to end; used/avail/free/total/max mem: 1.53G/6.43G/6.43G/7.96G/7.96G
+DEBUG SortMode             - [01] Sorting [[150000000,160000000]]
+DEBUG SortMode             - [01] Sorting [[150000000,160000000]] to /tmp/sorted-LHOUYDZSRF
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[150000000,160000000]] with tag LHOUYDZSRF...
+DEBUG SortMode             - [01] Sorting [[160000000,170000000]]
+DEBUG SortMode             - [01] Sorting [[160000000,170000000]] to /tmp/sorted-LAHZKZLDIQ
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[160000000,170000000]] with tag LAHZKZLDIQ...
+INFO  SortMode             - 17 split-sorts, 2m 33s, 6.65 split-sorts/m; 73% done, 51s to end; used/avail/free/total/max mem: 1.30G/6.67G/6.67G/7.97G/7.97G
+DEBUG SortMode             - [01] Sorting [[170000000,180000000]]
+DEBUG SortMode             - [01] Sorting [[170000000,180000000]] to /tmp/sorted-GPNNHHBTCX
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[170000000,180000000]] with tag GPNNHHBTCX...
+DEBUG SortMode             - [01] Sorting [[180000000,190000000]]
+DEBUG SortMode             - [01] Sorting [[180000000,190000000]] to /tmp/sorted-CGNBLOVPDG
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[180000000,190000000]] with tag CGNBLOVPDG...
+INFO  SortMode             - 19 split-sorts, 2m 51s, 6.65 split-sorts/m; 82% done, 34s to end; used/avail/free/total/max mem: 1.08G/6.55G/6.49G/7.57G/7.64G
+DEBUG SortMode             - [01] Sorting [[190000000,200000000]]
+DEBUG SortMode             - [01] Sorting [[190000000,200000000]] to /tmp/sorted-MXMREMVVAV
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[190000000,200000000]] with tag MXMREMVVAV...
+DEBUG SortMode             - [01] Sorting [[200000000,210000000]]
+DEBUG SortMode             - [01] Sorting [[200000000,210000000]] to /tmp/sorted-DZXMCRWTOT
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[200000000,210000000]] with tag DZXMCRWTOT...
+INFO  SortMode             - 21 split-sorts, 3m 10s, 6.63 split-sorts/m; 91% done, 17s to end; used/avail/free/total/max mem: 1.90G/6.07G/6.07G/7.97G/7.97G
+DEBUG SortMode             - [01] Sorting [[210000000,220000000]]
+DEBUG SortMode             - [01] Sorting [[210000000,220000000]] to /tmp/sorted-ZVONEMKDKO
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[210000000,220000000]] with tag ZVONEMKDKO...
+INFO  SortMode             - 22 split-sorts, 3m 20s, 6.58 split-sorts/m; 95% done, 8s to end; used/avail/free/total/max mem: 2.12G/5.81G/5.81G/7.93G/7.93G
+DEBUG SortMode             - [01] Sorting [[220000000,220453074]]
+DEBUG SortMode             - [01] Sorting [[220000000,220453074]] to /tmp/sorted-QJACAXOZOR
+DEBUG SortMode             - [01] Loading entries...
+DEBUG SortMode             - [01] Sorting...
+DEBUG SortMode             - [01] Writing sorted alignment for [[220000000,220453074]] with tag QJACAXOZOR...
+INFO  SortMode             - Completed.
+INFO  SortMode             - Elapsed: 3m 21s [23 split-sorts, 6.84 split-sorts/m]; used/avail/free/total/max mem: 157.12M/7.78G/7.78G/7.94G/7.94G
+DEBUG SortMode             - [01] 0 items in queue to sort after removing 23 for sorting
+DEBUG SortMode             - [01] Merging 23 items [[[0,220453074]], [[10000000,20000000]], [[20000000,30000000]], [[30000000,40000000]], [[40000000,50000000]], [[50000000,60000000]], [[60000000,70000000]], [[70000000,80000000]], [[80000000,90000000]], [[90000000,100000000]], [[100000000,110000000]], [[110000000,120000000]], [[120000000,130000000]], [[130000000,140000000]], [[140000000,150000000]], [[150000000,160000000]], [[160000000,170000000]], [[170000000,180000000]], [[180000000,190000000]], [[190000000,200000000]], [[200000000,210000000]], [[210000000,220000000]], [[220000000,220453074]]] to [[0,220453074]]
+INFO  SortMode             - 22 merges, 3m 3s, 7.18 merges/m; 95% done, 7s to end; used/avail/free/total/max mem: 1.54G/7.02G/7.02G/8.56G/8.56G
+Sort completed
+INFO  SortMode             - [[0,220453074]] made up from 23 splits
+INFO  SortMode             - Took 1 secondary sort/merges
+Using processor NONE
+WARN  MessageChunksWriter  - Using chunk-size=100000
+input alignments are all sorted, the output will also be sorted.
+true
+Concatenating TMH..
+Warning: could not find depth/max-length-of-match in too many hits information.
+Done.
+INFO  root                 - Concatenating entries
+INFO  root                 - 1,500,160 items, 10s, 149,433.21 items/s; used/avail/free/total/max mem: 742.73M/7.49G/7.49G/8.23G/8.23G
+INFO  root                 - 3,440,640 items, 20s, 171,671.49 items/s; used/avail/free/total/max mem: 538.69M/7.60G/7.60G/8.14G/8.14G
+INFO  root                 - 5,500,928 items, 30s, 181,554.77 items/s; used/avail/free/total/max mem: 2.28G/6.21G/6.21G/8.49G/8.49G
+INFO  root                 - 7,533,568 items, 40s, 186,937.17 items/s; used/avail/free/total/max mem: 790.15M/7.70G/7.70G/8.49G/8.49G
+INFO  root                 - 9,400,320 items, 50s, 185,927.73 items/s; used/avail/free/total/max mem: 1.60G/6.89G/6.89G/8.49G/8.49G
+INFO  root                 - 11,300,864 items, 1m 0s, 186,381.41 items/s; used/avail/free/total/max mem: 2.46G/6.02G/6.02G/8.49G/8.49G
+INFO  root                 - 13,200,384 items, 1m 10s, 186,177.88 items/s; used/avail/free/total/max mem: 743.69M/7.75G/7.75G/8.50G/8.50G
+INFO  root                 - 15,000,576 items, 1m 21s, 184,879.60 items/s; used/avail/free/total/max mem: 1.28G/7.21G/7.21G/8.49G/8.49G
+INFO  root                 - 16,800,768 items, 1m 31s, 183,693.25 items/s; used/avail/free/total/max mem: 1.81G/6.68G/6.68G/8.49G/8.49G
+INFO  root                 - 18,700,288 items, 1m 41s, 184,081.51 items/s; used/avail/free/total/max mem: 158.29M/8.33G/8.33G/8.49G/8.49G
+INFO  root                 - 20,600,832 items, 1m 51s, 184,065.83 items/s; used/avail/free/total/max mem: 1.45G/7.04G/7.04G/8.50G/8.50G
+INFO  root                 - 22,540,288 items, 2m 1s, 184,868.59 items/s; used/avail/free/total/max mem: 2.74G/5.76G/5.76G/8.50G/8.50G
+INFO  root                 - 24,500,224 items, 2m 12s, 185,324.16 items/s; used/avail/free/total/max mem: 1.48G/7.02G/7.02G/8.50G/8.50G
+INFO  root                 - 26,400,768 items, 2m 22s, 185,581.11 items/s; used/avail/free/total/max mem: 2.60G/5.89G/5.89G/8.49G/8.49G
+INFO  root                 - 28,400,640 items, 2m 32s, 186,286.23 items/s; used/avail/free/total/max mem: 1.48G/7.02G/7.02G/8.50G/8.50G
+INFO  root                 - 30,300,160 items, 2m 42s, 186,307.74 items/s; used/avail/free/total/max mem: 2.64G/5.85G/5.85G/8.50G/8.50G
+INFO  root                 - 32,100,352 items, 2m 52s, 185,611.25 items/s; used/avail/free/total/max mem: 507.97M/7.99G/7.99G/8.50G/8.50G
+INFO  root                 - 34,000,896 items, 3m 3s, 185,772.88 items/s; used/avail/free/total/max mem: 1.67G/6.83G/6.83G/8.50G/8.50G
+INFO  root                 - 35,900,416 items, 3m 13s, 185,905.60 items/s; used/avail/free/total/max mem: 2.75G/5.74G/5.74G/8.50G/8.50G
+INFO  root                 - 37,600,256 items, 3m 23s, 185,074.33 items/s; used/avail/free/total/max mem: 313.48M/8.18G/8.18G/8.50G/8.50G
+INFO  root                 - 39,303,168 items, 3m 33s, 184,380.82 items/s; used/avail/free/total/max mem: 511.45M/7.94G/7.94G/8.45G/8.45G
+INFO  root                 - 41,000,960 items, 3m 43s, 183,548.03 items/s; used/avail/free/total/max mem: 747.90M/7.75G/7.75G/8.50G/8.50G
+INFO  root                 - 42,793,984 items, 3m 53s, 183,366.12 items/s; used/avail/free/total/max mem: 1.17G/7.33G/7.33G/8.50G/8.50G
+INFO  root                 - 44,700,672 items, 4m 3s, 183,491.26 items/s; used/avail/free/total/max mem: 2.59G/5.90G/5.90G/8.49G/8.49G
+INFO  root                 - 46,800,896 items, 4m 13s, 184,345.49 items/s; used/avail/free/total/max mem: 1.92G/6.58G/6.58G/8.49G/8.49G
+INFO  root                 - Completed.
+INFO  root                 - Elapsed: 4m 15s [47,181,221 items, 184,751.25 items/s]; used/avail/free/total/max mem: 913.65M/7.58G/7.58G/8.50G/8.50G
+Total logical entries written: 47181221
+Total bytes written: 47873212
+Average bytes/logical entry: 1.0146667
+Min query index: 0
+Max query index: 44491675
+Number of queries: 44897962
+Number of targets: 84
+Wrote a total of 47181221 alignment entries.
+Number of alignment entries realigned in the proximity of indels: 0 (0.00 % of total)
+job completed
+total 46M
+-rw-r--r--  1 gobyweb icb 3.8K Jun 10 12:42 ZHUUJKS.index
+-rw-r--r--  1 gobyweb icb 7.0K Jun 10 12:42 ZHUUJKS.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 12:42 ZHUUJKS.tmh
+-rw-r--r--  1 gobyweb icb 1.6K Jun 10 12:42 ZHUUJKS.compact-file-stats.txt
+-rw-r--r--  1 gobyweb icb  46M Jun 10 12:42 ZHUUJKS.entries
+-rw-r--r--  1 gobyweb icb  853 Jun 10 12:42 ZHUUJKS.header
+drwxr-xr-x  2 gobyweb icb 4.0K May 25 19:41 .
+drwxr-xr-x 13 gobyweb icb 4.0K May 25 18:42 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+ZHUUJKS-(no-type) total size (3807+47873696+853) = 47878356
+:bits per base
+/home/gobyweb/reads-for-paper/results/bam-TO-goby_hybrid_domain_noclips/ZHUUJKS//ZHUUJKS.compact-file-stats.txt : 0.028991

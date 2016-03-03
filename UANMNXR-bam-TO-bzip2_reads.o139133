@@ -1,0 +1,84 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: jane.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is jane.pbtech
+SGE: job identifier is 139133
+SGE: job name is UANMNXR-bam-TO-bzip2_reads
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139133.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139133.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-bzip2_reads/UANMNXR/
++++
++++ Timing BAM to bzip2 reads UANMNXR
++++
+WARN  MessageChunksWriter  - Using chunk-size=20000
+INFO  SamExtractReadsMode  - 260,096 items, 10s, 24,637.30 items/s
+INFO  SamExtractReadsMode  - 440,320 items, 21s, 20,094.93 items/s
+INFO  SamExtractReadsMode  - 580,608 items, 32s, 17,664.30 items/s
+INFO  SamExtractReadsMode  - 720,896 items, 43s, 16,532.42 items/s
+INFO  SamExtractReadsMode  - 860,160 items, 54s, 15,781.59 items/s
+INFO  SamExtractReadsMode  - 1,000,448 items, 1m 5s, 15,250.03 items/s
+INFO  SamExtractReadsMode  - 1,140,736 items, 1m 16s, 14,903.79 items/s
+INFO  SamExtractReadsMode  - 1,280,000 items, 1m 27s, 14,625.56 items/s
+INFO  SamExtractReadsMode  - 1,420,288 items, 1m 38s, 14,456.15 items/s
+INFO  SamExtractReadsMode  - 1,560,576 items, 1m 49s, 14,282.88 items/s
+INFO  SamExtractReadsMode  - 1,700,864 items, 2m 0s, 14,137.93 items/s
+INFO  SamExtractReadsMode  - 1,840,128 items, 2m 11s, 13,971.16 items/s
+INFO  SamExtractReadsMode  - 1,980,416 items, 2m 22s, 13,849.16 items/s
+INFO  SamExtractReadsMode  - 2,120,704 items, 2m 33s, 13,850.22 items/s
+INFO  SamExtractReadsMode  - 2,260,992 items, 2m 43s, 13,828.11 items/s
+INFO  SamExtractReadsMode  - 2,400,256 items, 2m 53s, 13,825.16 items/s
+INFO  SamExtractReadsMode  - 2,540,544 items, 3m 4s, 13,792.54 items/s
+INFO  SamExtractReadsMode  - 2,680,832 items, 3m 14s, 13,774.77 items/s
+INFO  SamExtractReadsMode  - 2,820,096 items, 3m 24s, 13,759.45 items/s
+INFO  SamExtractReadsMode  - 2,960,384 items, 3m 35s, 13,728.43 items/s
+INFO  SamExtractReadsMode  - 3,100,672 items, 3m 46s, 13,663.68 items/s
+INFO  SamExtractReadsMode  - 3,232,768 items, 3m 56s, 13,644.29 items/s
+Total number of reads written 3272819
+Number of paired-end reads written 2866511
+
+real	4m3.593s
+user	4m2.975s
+sys	0m1.380s
+job completed
+total 332M
+-rw-r--r--  1 gobyweb icb 332M Jun 10 16:30 UANMNXR.compact-reads
+-rw-r--r--  1 gobyweb icb  590 May 12 12:14 UANMNXR.compact-file-stats.txt
+drwxr-xr-x 13 gobyweb icb 4.0K Apr 13 16:50 ..
+drwxr-xr-x  2 gobyweb icb 4.0K Apr 13 16:13 .
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+UANMNXR-(no-type) total size (347453277) = 347453277
+:bits per base
+/home/gobyweb/reads-for-paper/results/bam-TO-bzip2_reads/UANMNXR//UANMNXR.compact-file-stats.txt : unknown

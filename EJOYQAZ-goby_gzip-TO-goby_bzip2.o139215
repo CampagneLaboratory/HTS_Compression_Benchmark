@@ -1,0 +1,132 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: jane.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is jane.pbtech
+SGE: job identifier is 139215
+SGE: job name is EJOYQAZ-goby_gzip-TO-goby_bzip2
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139215.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139215.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_bzip2/EJOYQAZ/
++++
++++ Timing performing goby_gzip to goby_bzip2 for EJOYQAZ
++++
+Using processor NONE
+WARN  MessageChunksWriter  - Using chunk-size=100000
+input alignments are all sorted, the output will also be sorted.
+true
+Concatenating TMH..
+Warning: could not find depth/max-length-of-match in too many hits information.
+Done.
+INFO  root                 - Concatenating entries
+INFO  root                 - 600,064 items, 10s, 58,445.89 items/s; used/avail/free/total/max mem: 539.42M/5.63G/5.63G/6.17G/6.17G
+INFO  root                 - 1,300,480 items, 21s, 61,282.69 items/s; used/avail/free/total/max mem: 1.02G/5.16G/5.16G/6.17G/6.17G
+INFO  root                 - 2,000,896 items, 32s, 62,337.09 items/s; used/avail/free/total/max mem: 1.46G/4.71G/4.71G/6.17G/6.17G
+INFO  root                 - 2,700,288 items, 43s, 62,749.24 items/s; used/avail/free/total/max mem: 319.01M/5.55G/5.55G/5.87G/5.87G
+INFO  root                 - 3,400,704 items, 54s, 62,741.30 items/s; used/avail/free/total/max mem: 846.14M/5.00G/5.00G/5.85G/5.85G
+INFO  root                 - 4,000,768 items, 1m 4s, 62,111.19 items/s; used/avail/free/total/max mem: 1.11G/4.71G/4.71G/5.81G/5.81G
+INFO  root                 - 4,700,160 items, 1m 15s, 62,298.33 items/s; used/avail/free/total/max mem: 221.36M/5.52G/5.52G/5.74G/5.74G
+INFO  root                 - 5,300,224 items, 1m 25s, 62,020.66 items/s; used/avail/free/total/max mem: 573.44M/5.15G/5.12G/5.69G/5.73G
+INFO  root                 - 5,970,944 items, 1m 35s, 62,541.31 items/s; used/avail/free/total/max mem: 1.19G/4.54G/4.51G/5.69G/5.73G
+INFO  root                 - 6,400,000 items, 1m 45s, 60,420.68 items/s; used/avail/free/total/max mem: 1.12G/4.60G/4.52G/5.65G/5.73G
+INFO  root                 - 7,000,064 items, 1m 55s, 60,359.95 items/s; used/avail/free/total/max mem: 289.17M/5.44G/5.28G/5.57G/5.73G
+INFO  root                 - 7,700,480 items, 2m 7s, 60,585.52 items/s; used/avail/free/total/max mem: 1.12G/4.61G/4.44G/5.56G/5.73G
+INFO  root                 - 8,300,544 items, 2m 17s, 60,413.73 items/s; used/avail/free/total/max mem: 459.90M/5.27G/5.05G/5.51G/5.73G
+INFO  root                 - 8,920,064 items, 2m 27s, 60,516.86 items/s; used/avail/free/total/max mem: 1.11G/4.61G/4.38G/5.49G/5.73G
+INFO  root                 - 9,430,016 items, 2m 37s, 59,911.54 items/s; used/avail/free/total/max mem: 356.92M/5.37G/5.07G/5.43G/5.73G
+INFO  root                 - 10,000,384 items, 2m 48s, 59,445.77 items/s; used/avail/free/total/max mem: 961.61M/4.77G/4.47G/5.43G/5.73G
+INFO  root                 - 10,600,448 items, 2m 58s, 59,472.89 items/s; used/avail/free/total/max mem: 599.74M/5.13G/4.76G/5.36G/5.73G
+INFO  root                 - 11,300,864 items, 3m 9s, 59,655.94 items/s; used/avail/free/total/max mem: 618.24M/5.11G/4.70G/5.31G/5.73G
+INFO  root                 - 12,000,256 items, 3m 19s, 60,115.50 items/s; used/avail/free/total/max mem: 745.79M/4.98G/4.88G/5.62G/5.73G
+INFO  root                 - 12,700,672 items, 3m 29s, 60,520.03 items/s; used/avail/free/total/max mem: 272.90M/5.45G/5.27G/5.54G/5.73G
+INFO  root                 - 13,400,064 items, 3m 41s, 60,604.16 items/s; used/avail/free/total/max mem: 1.15G/4.57G/4.37G/5.52G/5.73G
+INFO  root                 - 14,000,128 items, 3m 51s, 60,518.59 items/s; used/avail/free/total/max mem: 542.11M/5.18G/4.93G/5.47G/5.73G
+INFO  root                 - 14,700,544 items, 4m 2s, 60,642.56 items/s; used/avail/free/total/max mem: 328.38M/5.40G/5.08G/5.41G/5.73G
+INFO  root                 - 15,300,608 items, 4m 12s, 60,542.76 items/s; used/avail/free/total/max mem: 1.06G/4.67G/4.36G/5.42G/5.73G
+INFO  root                 - 16,000,000 items, 4m 24s, 60,529.71 items/s; used/avail/free/total/max mem: 995.37M/4.73G/4.39G/5.38G/5.73G
+INFO  root                 - 16,700,416 items, 4m 35s, 60,574.82 items/s; used/avail/free/total/max mem: 909.47M/4.82G/4.51G/5.42G/5.73G
+INFO  root                 - 17,300,480 items, 4m 46s, 60,435.61 items/s; used/avail/free/total/max mem: 520.45M/5.21G/4.94G/5.46G/5.73G
+INFO  root                 - 17,970,176 items, 4m 56s, 60,655.55 items/s; used/avail/free/total/max mem: 334.22M/5.39G/5.33G/5.66G/5.73G
+INFO  root                 - 18,600,960 items, 5m 7s, 60,525.37 items/s; used/avail/free/total/max mem: 879.05M/4.85G/4.71G/5.59G/5.73G
+INFO  root                 - 19,300,352 items, 5m 18s, 60,651.16 items/s; used/avail/free/total/max mem: 466.12M/5.26G/5.15G/5.62G/5.73G
+INFO  root                 - 20,000,768 items, 5m 29s, 60,688.39 items/s; used/avail/free/total/max mem: 1.26G/4.46G/4.27G/5.53G/5.73G
+INFO  root                 - 20,600,832 items, 5m 40s, 60,496.91 items/s; used/avail/free/total/max mem: 623.82M/5.10G/4.86G/5.49G/5.73G
+INFO  root                 - 21,000,192 items, 5m 50s, 59,904.02 items/s; used/avail/free/total/max mem: 813.75M/4.91G/4.70G/5.51G/5.73G
+INFO  root                 - 21,630,976 items, 6m 0s, 59,991.89 items/s; used/avail/free/total/max mem: 347.20M/5.38G/5.11G/5.45G/5.73G
+INFO  root                 - 22,300,672 items, 6m 11s, 60,099.10 items/s; used/avail/free/total/max mem: 188.30M/5.54G/5.27G/5.46G/5.73G
+INFO  root                 - 23,000,064 items, 6m 21s, 60,274.44 items/s; used/avail/free/total/max mem: 1.15G/4.57G/4.30G/5.46G/5.73G
+INFO  root                 - 23,700,480 items, 6m 32s, 60,384.00 items/s; used/avail/free/total/max mem: 1.09G/4.63G/4.52G/5.62G/5.73G
+INFO  root                 - 24,400,896 items, 6m 43s, 60,463.06 items/s; used/avail/free/total/max mem: 656.10M/5.07G/4.89G/5.55G/5.73G
+INFO  root                 - 25,000,960 items, 6m 53s, 60,403.38 items/s; used/avail/free/total/max mem: 1.20G/4.53G/4.35G/5.55G/5.73G
+INFO  root                 - 25,600,000 items, 7m 4s, 60,323.15 items/s; used/avail/free/total/max mem: 563.95M/5.16G/4.93G/5.50G/5.73G
+INFO  root                 - 26,200,064 items, 7m 15s, 60,176.77 items/s; used/avail/free/total/max mem: 187.85M/5.54G/5.30G/5.49G/5.73G
+INFO  root                 - 26,752,000 items, 7m 25s, 60,064.89 items/s; used/avail/free/total/max mem: 754.56M/4.97G/4.68G/5.43G/5.73G
+INFO  root                 - 27,300,864 items, 7m 35s, 59,944.85 items/s; used/avail/free/total/max mem: 229.06M/5.50G/5.16G/5.39G/5.73G
+INFO  root                 - 27,900,928 items, 7m 45s, 59,899.72 items/s; used/avail/free/total/max mem: 938.06M/4.79G/4.44G/5.38G/5.73G
+INFO  root                 - 28,580,864 items, 7m 55s, 60,069.45 items/s; used/avail/free/total/max mem: 888.57M/4.84G/4.45G/5.34G/5.73G
+INFO  root                 - 29,200,384 items, 8m 6s, 60,059.86 items/s; used/avail/free/total/max mem: 796.25M/4.93G/4.54G/5.34G/5.73G
+INFO  root                 - 29,892,608 items, 8m 16s, 60,244.52 items/s; used/avail/free/total/max mem: 858.36M/4.87G/4.42G/5.28G/5.73G
+INFO  root                 - 30,400,512 items, 8m 26s, 60,036.28 items/s; used/avail/free/total/max mem: 549.99M/5.18G/4.69G/5.24G/5.73G
+INFO  root                 - 31,100,928 items, 8m 37s, 60,152.58 items/s; used/avail/free/total/max mem: 906.93M/4.82G/4.53G/5.44G/5.73G
+INFO  root                 - 31,800,320 items, 8m 47s, 60,261.43 items/s; used/avail/free/total/max mem: 835.54M/4.89G/4.54G/5.38G/5.73G
+INFO  root                 - Completed.
+INFO  root                 - Elapsed: 8m 49s [31,928,754 items, 60,333.89 items/s]; used/avail/free/total/max mem: 131.10M/5.60G/5.20G/5.33G/5.73G
+Total logical entries written: 31928754
+Total bytes written: 229389071
+Average bytes/logical entry: 7.184404
+Min query index: 0
+Max query index: 12629463
+Number of queries: 15693880
+Number of targets: 93
+Wrote a total of 31928754 alignment entries.
+Number of alignment entries realigned in the proximity of indels: 0 (0.00 % of total)
+
+real	8m51.069s
+user	9m46.339s
+sys	0m8.439s
+job completed
+total 220M
+-rw-r--r--  1 gobyweb icb   22 Jun 10 19:22 EJOYQAZ-bzip2.tmh
+-rw-r--r--  1 gobyweb icb  823 Jun 10 19:22 EJOYQAZ-bzip2.header
+-rw-r--r--  1 gobyweb icb 2.8K Jun 10 19:22 EJOYQAZ-bzip2.index
+-rw-r--r--  1 gobyweb icb  11K Jun 10 19:22 EJOYQAZ-bzip2.stats
+-rw-r--r--  1 gobyweb icb 219M Jun 10 19:22 EJOYQAZ-bzip2.entries
+-rw-r--r--  1 gobyweb icb 1.6K Jun 10 19:22 EJOYQAZ-bzip2.compact-file-stats.txt
+drwxr-xr-x 14 gobyweb icb 4.0K Apr 13 16:17 ..
+drwxr-xr-x  2 gobyweb icb 4.0K Apr  9 17:41 .
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+EJOYQAZ-bzip2 total size (823+2775+229389403) = 229393001
+:bits per base
+/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_bzip2/EJOYQAZ//EJOYQAZ-bzip2.compact-file-stats.txt : 0.095792

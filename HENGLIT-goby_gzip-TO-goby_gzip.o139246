@@ -1,0 +1,104 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139246
+SGE: job name is HENGLIT-goby_gzip-TO-goby_gzip
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139246.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139246.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_gzip/HENGLIT/
++++
++++ Timing performing goby_gzip to goby_gzip for HENGLIT
++++
+Using processor NONE
+WARN  MessageChunksWriter  - Using chunk-size=10000
+input alignments are all sorted, the output will also be sorted.
+true
+Concatenating TMH..
+Warning: could not find depth/max-length-of-match in too many hits information.
+Done.
+INFO  root                 - Concatenating entries
+INFO  root                 - 1,100,800 items, 10s, 108,979.31 items/s; used/avail/free/total/max mem: 557.29M/5.62G/5.62G/6.17G/6.17G
+INFO  root                 - 2,390,016 items, 20s, 118,894.44 items/s; used/avail/free/total/max mem: 1.01G/5.16G/5.16G/6.17G/6.17G
+INFO  root                 - 3,560,448 items, 30s, 118,114.65 items/s; used/avail/free/total/max mem: 1.29G/4.83G/4.83G/6.12G/6.12G
+INFO  root                 - 4,737,024 items, 40s, 118,000.80 items/s; used/avail/free/total/max mem: 1.27G/5.12G/5.12G/6.39G/6.39G
+INFO  root                 - 5,920,768 items, 50s, 118,072.95 items/s; used/avail/free/total/max mem: 714.77M/5.67G/5.67G/6.38G/6.38G
+INFO  root                 - 7,100,416 items, 1m 0s, 117,954.95 items/s; used/avail/free/total/max mem: 126.25M/6.15G/6.15G/6.28G/6.28G
+INFO  root                 - 8,230,912 items, 1m 10s, 117,254.47 items/s; used/avail/free/total/max mem: 1.51G/4.82G/4.82G/6.33G/6.33G
+INFO  root                 - 9,420,800 items, 1m 20s, 117,429.73 items/s; used/avail/free/total/max mem: 1.10G/5.26G/5.26G/6.36G/6.36G
+INFO  root                 - 10,660,864 items, 1m 30s, 118,142.93 items/s; used/avail/free/total/max mem: 691.27M/5.67G/5.67G/6.36G/6.36G
+INFO  root                 - 11,890,688 items, 1m 40s, 118,622.19 items/s; used/avail/free/total/max mem: 283.39M/6.07G/6.07G/6.36G/6.36G
+INFO  root                 - 13,220,864 items, 1m 50s, 119,867.12 items/s; used/avail/free/total/max mem: 248.41M/6.13G/6.13G/6.38G/6.38G
+INFO  root                 - 14,500,864 items, 2m 0s, 120,279.23 items/s; used/avail/free/total/max mem: 1.99G/4.39G/4.39G/6.38G/6.38G
+INFO  root                 - 15,800,320 items, 2m 10s, 120,952.91 items/s; used/avail/free/total/max mem: 1.84G/4.54G/4.54G/6.38G/6.38G
+INFO  root                 - 17,100,800 items, 2m 20s, 121,523.59 items/s; used/avail/free/total/max mem: 1.53G/4.85G/4.85G/6.38G/6.38G
+INFO  root                 - 18,370,560 items, 2m 30s, 121,866.75 items/s; used/avail/free/total/max mem: 1.32G/5.00G/5.00G/6.32G/6.32G
+INFO  root                 - 19,710,976 items, 2m 40s, 122,619.59 items/s; used/avail/free/total/max mem: 1.35G/5.03G/5.03G/6.38G/6.38G
+INFO  root                 - 21,060,608 items, 2m 50s, 123,330.94 items/s; used/avail/free/total/max mem: 1.19G/5.20G/5.20G/6.38G/6.38G
+INFO  root                 - 22,320,128 items, 3m 0s, 123,449.30 items/s; used/avail/free/total/max mem: 908.49M/5.47G/5.47G/6.37G/6.37G
+INFO  root                 - 23,500,800 items, 3m 10s, 123,160.13 items/s; used/avail/free/total/max mem: 393.49M/5.98G/5.98G/6.38G/6.38G
+INFO  root                 - 24,770,560 items, 3m 20s, 123,320.67 items/s; used/avail/free/total/max mem: 2.06G/4.31G/4.31G/6.38G/6.38G
+INFO  root                 - 26,010,624 items, 3m 30s, 123,347.93 items/s; used/avail/free/total/max mem: 1.71G/4.66G/4.66G/6.38G/6.38G
+INFO  root                 - 27,190,272 items, 3m 40s, 123,051.28 items/s; used/avail/free/total/max mem: 1.14G/5.23G/5.23G/6.38G/6.38G
+INFO  root                 - Completed.
+INFO  root                 - Elapsed: 3m 46s [27,917,284 items, 123,411.49 items/s]; used/avail/free/total/max mem: 1.20G/5.18G/5.18G/6.38G/6.38G
+Total logical entries written: 27917284
+Total bytes written: 468183199
+Average bytes/logical entry: 16.77037
+Min query index: 0
+Max query index: 14098260
+Number of queries: 27917284
+Number of targets: 7
+Wrote a total of 27917284 alignment entries.
+Number of alignment entries realigned in the proximity of indels: 0 (0.00 % of total)
+
+real	3m47.771s
+user	4m32.989s
+sys	0m6.210s
+job completed
+total 447M
+-rw-r--r--  1 gobyweb icb  22K Jun 10 20:13 HENGLIT-gzip.index
+-rw-r--r--  1 gobyweb icb  466 Jun 10 20:13 HENGLIT-gzip.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 20:13 HENGLIT-gzip.tmh
+-rw-r--r--  1 gobyweb icb  217 Jun 10 20:13 HENGLIT-gzip.header
+-rw-r--r--  1 gobyweb icb 447M Jun 10 20:13 HENGLIT-gzip.entries
+-rw-r--r--  1 gobyweb icb 1.7K Jun 10 20:12 HENGLIT-gzip.compact-file-stats.txt
+drwxr-xr-x 14 gobyweb icb 4.0K Apr 13 16:17 ..
+drwxr-xr-x  2 gobyweb icb 4.0K Apr  9 17:32 .
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+HENGLIT-gzip total size (21836+217+468186003) = 468208056
+:bits per base
+/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_gzip/HENGLIT//HENGLIT-gzip.compact-file-stats.txt : 0.167705

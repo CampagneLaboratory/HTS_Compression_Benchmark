@@ -1,0 +1,100 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: jane.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is jane.pbtech
+SGE: job identifier is 139062
+SGE: job name is XAAOBVT-bam-TO-goby_null
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139062.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139062.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bam-TO-goby_null/XAAOBVT/
++++
++++ Timing BAM to Goby-NULL XAAOBVT
++++
+Store read origin: false
+WARN  MessageChunksWriter  - Using chunk-size=10000
+INFO  SAMToCompactMode     - 585,728 items, 10s, 58,531.83 items/s; used/avail/free/total/max mem: 2.12G/6.12G/6.12G/8.23G/8.23G
+INFO  SAMToCompactMode     - 1,240,064 items, 20s, 61,398.43 items/s; used/avail/free/total/max mem: 64.88M/8.17G/8.17G/8.23G/8.23G
+INFO  SAMToCompactMode     - 1,957,888 items, 30s, 64,835.02 items/s; used/avail/free/total/max mem: 477.22M/7.32G/7.32G/7.80G/7.80G
+INFO  SAMToCompactMode     - 2,716,672 items, 40s, 67,578.91 items/s; used/avail/free/total/max mem: 1.36G/6.33G/6.33G/7.69G/7.69G
+INFO  SAMToCompactMode     - 3,441,664 items, 50s, 68,559.04 items/s; used/avail/free/total/max mem: 418.22M/7.22G/7.15G/7.57G/7.64G
+INFO  SAMToCompactMode     - 4,154,368 items, 1m 0s, 69,004.85 items/s; used/avail/free/total/max mem: 1.41G/6.23G/6.05G/7.46G/7.64G
+INFO  SAMToCompactMode     - 4,852,736 items, 1m 10s, 69,111.54 items/s; used/avail/free/total/max mem: 864.12M/6.77G/6.48G/7.35G/7.64G
+INFO  SAMToCompactMode     - 5,516,288 items, 1m 20s, 68,758.50 items/s; used/avail/free/total/max mem: 479.18M/7.16G/6.77G/7.25G/7.64G
+INFO  SAMToCompactMode     - 6,241,280 items, 1m 30s, 69,168.49 items/s; used/avail/free/total/max mem: 756.50M/6.88G/6.40G/7.16G/7.64G
+INFO  SAMToCompactMode     - 6,899,712 items, 1m 40s, 68,825.74 items/s; used/avail/free/total/max mem: 865.28M/6.77G/6.21G/7.08G/7.64G
+INFO  SAMToCompactMode     - 7,595,008 items, 1m 50s, 68,886.46 items/s; used/avail/free/total/max mem: 1.38G/6.26G/5.62G/7.00G/7.64G
+INFO  SAMToCompactMode     - 8,306,688 items, 2m 0s, 69,069.87 items/s; used/avail/free/total/max mem: 1.05G/6.58G/5.85G/6.91G/7.64G
+INFO  SAMToCompactMode     - 9,031,680 items, 2m 10s, 69,332.60 items/s; used/avail/free/total/max mem: 1.13G/6.51G/5.70G/6.83G/7.64G
+INFO  SAMToCompactMode     - 9,679,872 items, 2m 20s, 69,006.89 items/s; used/avail/free/total/max mem: 995.25M/6.64G/5.76G/6.76G/7.64G
+INFO  SAMToCompactMode     - 10,404,864 items, 2m 30s, 69,234.21 items/s; used/avail/free/total/max mem: 682.73M/6.95G/6.00G/6.68G/7.64G
+INFO  SAMToCompactMode     - 11,070,464 items, 2m 40s, 69,062.63 items/s; used/avail/free/total/max mem: 285.14M/7.35G/6.32G/6.61G/7.64G
+INFO  SAMToCompactMode     - 11,766,784 items, 2m 50s, 69,086.74 items/s; used/avail/free/total/max mem: 455.33M/7.18G/6.09G/6.55G/7.64G
+INFO  SAMToCompactMode     - 12,422,144 items, 3m 0s, 68,887.53 items/s; used/avail/free/total/max mem: 651.75M/6.98G/5.85G/6.50G/7.64G
+INFO  SAMToCompactMode     - 13,089,792 items, 3m 10s, 68,775.28 items/s; used/avail/free/total/max mem: 651.44M/6.98G/5.79G/6.44G/7.64G
+INFO  SAMToCompactMode     - 13,788,160 items, 3m 20s, 68,827.24 items/s; used/avail/free/total/max mem: 513.85M/7.12G/6.01G/6.52G/7.64G
+INFO  SAMToCompactMode     - 14,474,240 items, 3m 30s, 68,814.19 items/s; used/avail/free/total/max mem: 505.09M/7.13G/6.56G/7.07G/7.64G
+INFO  SAMToCompactMode     - 15,165,440 items, 3m 40s, 68,825.57 items/s; used/avail/free/total/max mem: 365.90M/7.27G/6.90G/7.27G/7.64G
+INFO  SAMToCompactMode     - 15,898,624 items, 3m 50s, 69,019.12 items/s; used/avail/free/total/max mem: 417.54M/7.22G/6.76G/7.18G/7.64G
+INFO  SAMToCompactMode     - 16,635,904 items, 4m 0s, 69,214.75 items/s; used/avail/free/total/max mem: 734.25M/6.90G/6.36G/7.09G/7.64G
+INFO  SAMToCompactMode     - 17,313,792 items, 4m 10s, 69,157.24 items/s; used/avail/free/total/max mem: 989.25M/6.65G/6.03G/7.02G/7.64G
+INFO  SAMToCompactMode     - 18,039,808 items, 4m 20s, 69,288.21 items/s; used/avail/free/total/max mem: 645.72M/6.99G/6.28G/6.92G/7.64G
+INFO  SAMToCompactMode     - 18,745,344 items, 4m 30s, 69,333.21 items/s; used/avail/free/total/max mem: 735.07M/6.90G/6.72G/7.45G/7.64G
+INFO  SAMToCompactMode     - 19,351,552 items, 4m 40s, 69,018.28 items/s; used/avail/free/total/max mem: 1.06G/6.57G/6.35G/7.41G/7.64G
+Total logical entries written: 19929026
+Total bytes written: 21912
+Average bytes/logical entry: 0.0010995019
+Min query index: 0
+Max query index: 10003425
+Number of queries: 19929026
+Number of targets: 45
+
+real	4m51.625s
+user	4m55.606s
+sys	0m2.860s
+rm: cannot remove `XAAOBVT.bam': No such file or directory
+job completed
+total 1.4G
+-rw-r--r--  1 gobyweb icb  24K Jun 10 13:13 XAAOBVT.entries
+-rw-r--r--  1 gobyweb icb  561 Jun 10 13:13 XAAOBVT.header
+-rw-r--r--  1 gobyweb icb  243 Jun 10 13:13 XAAOBVT.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 13:13 XAAOBVT.tmh
+-rw-r--r--  1 gobyweb icb 1.4G Jun 10 13:13 XAAOBVT-no-unmapped.bam
+drwxr-xr-x  2 gobyweb icb 4.0K Jun  4 13:59 .
+drwxr-xr-x 12 gobyweb icb 4.0K May 17 17:57 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+XAAOBVT-(no-type) total size (23928+561) = 24489 XAAOBVT-no-unmapped total size (1496454725) = 1496454725
+:bits per base
+Could not process file: /home/gobyweb/reads-for-paper/results/bam-TO-goby_null/XAAOBVT//*compact-file-stats.txt

@@ -1,0 +1,88 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139214
+SGE: job name is EJOYQAZ-goby_gzip-TO-goby_null
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139214.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139214.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_null/EJOYQAZ/
++++
++++ Timing converting goby_gzip to goby_null EJOYQAZ
++++
+Using processor NONE
+WARN  MessageChunksWriter  - Using chunk-size=10000
+input alignments are all sorted, the output will also be sorted.
+true
+Concatenating TMH..
+Warning: could not find depth/max-length-of-match in too many hits information.
+Done.
+INFO  root                 - Concatenating entries
+INFO  root                 - 4,540,416 items, 10s, 453,633.33 items/s; used/avail/free/total/max mem: 37.39M/5.72G/5.72G/5.76G/5.76G
+INFO  root                 - 9,370,624 items, 20s, 468,203.46 items/s; used/avail/free/total/max mem: 55.63M/5.67G/5.41G/5.46G/5.73G
+INFO  root                 - 14,227,456 items, 30s, 474,011.53 items/s; used/avail/free/total/max mem: 818.99M/4.91G/4.40G/5.22G/5.73G
+INFO  root                 - 19,080,192 items, 40s, 476,694.95 items/s; used/avail/free/total/max mem: 802.70M/5.48G/5.48G/6.28G/6.28G
+INFO  root                 - 23,800,832 items, 50s, 475,769.24 items/s; used/avail/free/total/max mem: 934.98M/5.01G/5.01G/5.94G/5.94G
+INFO  root                 - 28,150,784 items, 1m 0s, 468,890.58 items/s; used/avail/free/total/max mem: 860.74M/5.13G/5.13G/5.99G/5.99G
+INFO  root                 - Completed.
+INFO  root                 - Elapsed: 1m 8s [31,928,754 items, 463,642.69 items/s]; used/avail/free/total/max mem: 183.51M/5.54G/5.54G/5.73G/5.73G
+Total logical entries written: 31928754
+Total bytes written: 35123
+Average bytes/logical entry: 0.001100043
+Min query index: 0
+Max query index: 12629463
+Number of queries: 15693880
+Number of targets: 93
+Wrote a total of 31928754 alignment entries.
+Number of alignment entries realigned in the proximity of indels: 0 (0.00 % of total)
+
+real	1m10.511s
+user	1m15.302s
+sys	0m1.777s
+job completed
+total 92K
+-rw-r--r--  1 gobyweb icb  38K Jun 10 19:12 EJOYQAZ-null.entries
+-rw-r--r--  1 gobyweb icb  823 Jun 10 19:12 EJOYQAZ-null.header
+-rw-r--r--  1 gobyweb icb  20K Jun 10 19:12 EJOYQAZ-null.index
+-rw-r--r--  1 gobyweb icb  11K Jun 10 19:12 EJOYQAZ-null.stats
+-rw-r--r--  1 gobyweb icb   22 Jun 10 19:12 EJOYQAZ-null.tmh
+-rw-r--r--  1 gobyweb icb 1.6K Jun 10 19:12 EJOYQAZ.compact-file-stats.txt
+drwxr-xr-x 14 gobyweb icb 4.0K Apr 13 16:18 ..
+drwxr-xr-x  2 gobyweb icb 4.0K Apr  9 19:05 .
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+EJOYQAZ-null total size (38328+823+19883) = 59034
+:bits per base
+/home/gobyweb/reads-for-paper/results/goby_gzip-TO-goby_null/EJOYQAZ//EJOYQAZ.compact-file-stats.txt : 0.129041

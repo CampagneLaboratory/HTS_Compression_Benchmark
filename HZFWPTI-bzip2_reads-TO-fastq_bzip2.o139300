@@ -1,0 +1,71 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139300
+SGE: job name is HZFWPTI-bzip2_reads-TO-fastq_bzip2
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139300.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139300.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/bzip2_reads-TO-fastq_bzip2/HZFWPTI/
++++
++++ Timing BAM to bzip2 reads HZFWPTI
++++
+INFO  root                 - 400,384 items, 10s, 39,039.00 items/s; used/avail/free/total/max mem: 669.01M/5.51G/5.51G/6.17G/6.17G
+INFO  root                 - 669,696 items, 20s, 33,048.56 items/s; used/avail/free/total/max mem: 268.50M/5.47G/5.47G/5.73G/5.73G
+INFO  root                 - 920,576 items, 30s, 30,271.15 items/s; used/avail/free/total/max mem: 342.37M/5.38G/5.24G/5.58G/5.73G
+INFO  root                 - 1,188,864 items, 40s, 29,417.86 items/s; used/avail/free/total/max mem: 379.15M/5.35G/5.05G/5.42G/5.73G
+INFO  root                 - 1,460,224 items, 50s, 28,776.29 items/s; used/avail/free/total/max mem: 602.86M/5.12G/5.12G/5.73G/5.73G
+INFO  root                 - 1,721,344 items, 1m 0s, 28,333.02 items/s; used/avail/free/total/max mem: 981.76M/4.74G/4.59G/5.57G/5.73G
+INFO  root                 - 2,000,896 items, 1m 11s, 28,177.27 items/s; used/avail/free/total/max mem: 750.68M/4.98G/4.96G/5.71G/5.73G
+INFO  root                 - 2,291,712 items, 1m 21s, 28,284.36 items/s; used/avail/free/total/max mem: 320.67M/5.41G/5.22G/5.54G/5.73G
+INFO  root                 - 2,561,024 items, 1m 31s, 28,048.50 items/s; used/avail/free/total/max mem: 1.51G/4.21G/4.20G/5.71G/5.73G
+INFO  root                 - 2,840,576 items, 1m 41s, 27,971.64 items/s; used/avail/free/total/max mem: 1.20G/4.52G/4.32G/5.52G/5.73G
+INFO  root                 - 3,101,696 items, 1m 51s, 27,800.95 items/s; used/avail/free/total/max mem: 291.10M/5.44G/5.06G/5.36G/5.73G
+INFO  root                 - 3,360,768 items, 2m 1s, 27,577.34 items/s; used/avail/free/total/max mem: 1.63G/4.20G/4.20G/5.83G/5.83G
+
+real	2m17.982s
+user	2m32.656s
+sys	0m3.093s
+job completed
+total 370M
+-rw-r--r--  1 gobyweb icb 178M Jun 10 22:04 HZFWPTI.2_fq_bz2
+-rw-r--r--  1 gobyweb icb 192M Jun 10 22:01 HZFWPTI.1_fq_bz2
+drwxr-xr-x 12 gobyweb icb 4.0K May 12 13:41 ..
+drwxr-xr-x  2 gobyweb icb 4.0K May 12 13:37 .
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+HZFWPTI-(no-type) total size (186175597+200833075) = 387008672
+:bits per base
+Could not process file: /home/gobyweb/reads-for-paper/results/bzip2_reads-TO-fastq_bzip2/HZFWPTI//*compact-file-stats.txt

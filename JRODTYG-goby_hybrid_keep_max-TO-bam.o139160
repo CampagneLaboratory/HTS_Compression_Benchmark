@@ -1,0 +1,248 @@
+Including .bashrc
+The following commands were executed:
+export PYTHON_HOME=/softlib/exe/x86_64/pkg/python/2.7/gcc_64
+export PATH=$PYTHON_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$PYTHON_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+The following commands were executed:
+export SUBVERSION_HOME=/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64
+export PATH=$SUBVERSION_HOME/bin${PATH+:$PATH}
+export LD_LIBRARY_PATH=$SUBVERSION_HOME/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}
+export MANPATH=$SUBVERSION_HOME/man${MANPATH+:$MANPATH}
+The following commands were executed:
+export GIT_HOME=/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64
+export PATH=$GIT_HOME/bin${PATH+:$PATH}
+export MANPATH=$GIT_HOME/man${MANPATH+:$MANPATH}
+slchoose R 2.12.2
+The following commands were executed:
+export R_HOME=/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64
+export PATH=$R_HOME/bin${PATH+:$PATH}
+------------------------------------------------------
+This machines hostname: wally.pbtech
+------------------------------------------------------
+SGE: qsub is running on spanky
+SGE: originating queue is rascals.q
+SGE: executing cell is default
+SGE: working directory is /pbtech_mounts/fclab_store004/gobyweb/reads-for-paper/jobs
+SGE: execution mode is BATCH
+SGE: execution host is wally.pbtech
+SGE: job identifier is 139160
+SGE: job name is JRODTYG-goby_hybrid_keep_max-TO-bam
+SGE: task number is undefined
+SGE: current home directory is /home/gobyweb
+SGE: scratch directory is /scratchLocal/gobyweb/tmp/139160.1.rascals.q
+SGE: PATH = /home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib/qt-3.3/bin:/usr/pbs/bin:/home/kdorff/firefox:/home/gobyweb/valgrind/bin:/home/gobyweb/local-lib/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/lib64/R/bin:/softlib/exe/x86_64/pkg/R/2.12.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/git/1.7.3.2/gcc4_64/bin:/softlib/exe/x86_64/pkg/subversion/1.6.17/gcc4_64/bin:/softlib/exe/x86_64/pkg/python/2.7/gcc_64/bin:/softlib/exe/i686/pkg/sybyl/7.3/dist/trigo:/softlib/exe/i686/pkg/oracle_client/11.1.0.6/dist/oracle/product/11.1.0/client_1/bin:/softlib/exe/x86_64/pkg/ifort/9.1.039/dist/bin:/softlib/exe/x86_64/pkg/icc/9.1.044/dist/bin:/softlib/exe/slexpress/bin:/softlib/exe/x86_64/bin:/softlib/exe/i686/bin:/softlib/exe/linux/bin:/softlib/exe/all/bin:/opt/sge/bin/lx26-amd64:/usr/lib64/qt-3.3/bin:/usr/pbs/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util:/home/gobyweb/grails-1.3.7/bin:/home/gobyweb/python:/home/kdorff/uex.startup/:/home/gobyweb/apache-maven-2.2.1/bin:/home/gobyweb/groovy-1.8.6/bin:/home/gobyweb/bin:/home/gobyweb/ddd-3.3.12/ddd/:/home/gobyweb/TotalView/toolworks/totalview.8.8.0-2/linux-x86-64/bin/:/home/gobyweb/insight/install/bin:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/src:/home/gobyweb/GMAP-GSNAP-GOBY/gmap-gsnap/util
+------------------------------------------------------
+GOBY version=Goby Version: development (20120609164743)
+Current directory is /scratchLocal/gobyweb/tmp/139160.1.rascals.q
+Set FINAL_OUTPUT_DIR=/home/gobyweb/reads-for-paper/results/goby_hybrid_keep_max-TO-bam/JRODTYG/
++++
++++ Timing performing goby_hybrid_keep_max to bam for JRODTYG
++++
+INFO  CompactToSAMMode     - 122,880 items, 10s, 12,281.86 items/s; used/avail/free/total/max mem: 1.76G/4.42G/4.42G/6.17G/6.17G
+INFO  CompactToSAMMode     - 286,720 items, 20s, 14,318.10 items/s; used/avail/free/total/max mem: 1.96G/3.76G/3.31G/5.28G/5.73G
+INFO  CompactToSAMMode     - 450,560 items, 30s, 14,800.12 items/s; used/avail/free/total/max mem: 2.09G/3.64G/3.64G/5.73G/5.73G
+INFO  CompactToSAMMode     - 630,784 items, 40s, 15,493.81 items/s; used/avail/free/total/max mem: 2.45G/3.30G/3.30G/5.75G/5.75G
+INFO  CompactToSAMMode     - 793,600 items, 50s, 15,648.54 items/s; used/avail/free/total/max mem: 2.07G/3.80G/3.80G/5.87G/5.87G
+INFO  CompactToSAMMode     - 960,512 items, 1m 0s, 15,750.23 items/s; used/avail/free/total/max mem: 2.63G/3.35G/3.35G/5.99G/5.99G
+INFO  CompactToSAMMode     - 1,140,736 items, 1m 11s, 16,014.83 items/s; used/avail/free/total/max mem: 2.55G/3.53G/3.53G/6.09G/6.09G
+INFO  CompactToSAMMode     - 1,317,888 items, 1m 21s, 16,217.57 items/s; used/avail/free/total/max mem: 2.94G/3.19G/3.19G/6.13G/6.13G
+INFO  CompactToSAMMode     - 1,487,872 items, 1m 31s, 16,299.37 items/s; used/avail/free/total/max mem: 3.27G/2.93G/2.93G/6.20G/6.20G
+INFO  CompactToSAMMode     - 1,680,384 items, 1m 41s, 16,536.61 items/s; used/avail/free/total/max mem: 2.36G/3.87G/3.87G/6.23G/6.23G
+INFO  CompactToSAMMode     - 1,866,752 items, 1m 51s, 16,724.47 items/s; used/avail/free/total/max mem: 2.34G/3.90G/3.90G/6.24G/6.24G
+INFO  CompactToSAMMode     - 2,064,384 items, 2m 1s, 16,970.42 items/s; used/avail/free/total/max mem: 2.93G/3.34G/3.34G/6.27G/6.27G
+INFO  CompactToSAMMode     - 2,268,160 items, 2m 11s, 17,225.44 items/s; used/avail/free/total/max mem: 3.36G/2.92G/2.92G/6.28G/6.28G
+INFO  CompactToSAMMode     - 2,460,672 items, 2m 22s, 17,301.75 items/s; used/avail/free/total/max mem: 3.29G/3.01G/3.01G/6.30G/6.30G
+INFO  CompactToSAMMode     - 2,674,688 items, 2m 32s, 17,567.39 items/s; used/avail/free/total/max mem: 3.09G/3.22G/3.22G/6.30G/6.30G
+INFO  CompactToSAMMode     - 2,864,128 items, 2m 42s, 17,650.17 items/s; used/avail/free/total/max mem: 3.05G/3.26G/3.26G/6.30G/6.30G
+INFO  CompactToSAMMode     - 3,060,736 items, 2m 52s, 17,755.75 items/s; used/avail/free/total/max mem: 2.61G/3.70G/3.70G/6.31G/6.31G
+INFO  CompactToSAMMode     - 3,243,008 items, 3m 2s, 17,781.60 items/s; used/avail/free/total/max mem: 2.44G/3.87G/3.87G/6.31G/6.31G
+INFO  CompactToSAMMode     - 3,420,160 items, 3m 12s, 17,745.03 items/s; used/avail/free/total/max mem: 2.60G/3.67G/3.67G/6.27G/6.27G
+INFO  CompactToSAMMode     - 3,600,384 items, 3m 22s, 17,749.70 items/s; used/avail/free/total/max mem: 2.56G/3.75G/3.75G/6.31G/6.31G
+INFO  CompactToSAMMode     - 3,785,728 items, 3m 32s, 17,786.31 items/s; used/avail/free/total/max mem: 2.22G/4.09G/4.09G/6.31G/6.31G
+INFO  CompactToSAMMode     - 3,966,976 items, 3m 42s, 17,801.02 items/s; used/avail/free/total/max mem: 2.03G/4.27G/4.27G/6.30G/6.30G
+INFO  CompactToSAMMode     - 4,160,512 items, 3m 52s, 17,865.09 items/s; used/avail/free/total/max mem: 1.80G/4.48G/4.48G/6.28G/6.28G
+INFO  CompactToSAMMode     - 4,350,976 items, 4m 3s, 17,890.08 items/s; used/avail/free/total/max mem: 1.85G/4.45G/4.45G/6.30G/6.30G
+INFO  CompactToSAMMode     - 4,549,632 items, 4m 13s, 17,966.90 items/s; used/avail/free/total/max mem: 2.00G/4.27G/4.27G/6.27G/6.27G
+INFO  CompactToSAMMode     - 4,726,784 items, 4m 23s, 17,956.11 items/s; used/avail/free/total/max mem: 3.46G/2.80G/2.80G/6.27G/6.27G
+INFO  CompactToSAMMode     - 4,899,840 items, 4m 33s, 17,931.91 items/s; used/avail/free/total/max mem: 3.09G/3.21G/3.21G/6.30G/6.30G
+INFO  CompactToSAMMode     - 5,084,160 items, 4m 43s, 17,948.23 items/s; used/avail/free/total/max mem: 2.93G/3.37G/3.37G/6.30G/6.30G
+INFO  CompactToSAMMode     - 5,263,360 items, 4m 53s, 17,943.29 items/s; used/avail/free/total/max mem: 2.59G/3.70G/3.70G/6.30G/6.30G
+INFO  CompactToSAMMode     - 5,443,584 items, 5m 3s, 17,944.36 items/s; used/avail/free/total/max mem: 2.30G/4.00G/4.00G/6.30G/6.30G
+INFO  CompactToSAMMode     - 5,613,568 items, 5m 13s, 17,912.35 items/s; used/avail/free/total/max mem: 1.86G/4.44G/4.44G/6.30G/6.30G
+INFO  CompactToSAMMode     - 5,806,080 items, 5m 23s, 17,953.58 items/s; used/avail/free/total/max mem: 1.95G/4.29G/4.29G/6.24G/6.24G
+INFO  CompactToSAMMode     - 5,998,592 items, 5m 33s, 17,991.75 items/s; used/avail/free/total/max mem: 2.00G/4.29G/4.29G/6.30G/6.30G
+INFO  CompactToSAMMode     - 6,180,864 items, 5m 43s, 17,973.58 items/s; used/avail/free/total/max mem: 2.11G/4.18G/4.18G/6.30G/6.30G
+INFO  CompactToSAMMode     - 6,361,088 items, 5m 53s, 17,974.20 items/s; used/avail/free/total/max mem: 1.80G/4.50G/4.50G/6.30G/6.30G
+INFO  CompactToSAMMode     - 6,553,600 items, 6m 3s, 18,007.91 items/s; used/avail/free/total/max mem: 1.85G/4.45G/4.45G/6.30G/6.30G
+INFO  CompactToSAMMode     - 6,749,184 items, 6m 13s, 18,048.70 items/s; used/avail/free/total/max mem: 1.92G/4.38G/4.38G/6.30G/6.30G
+INFO  CompactToSAMMode     - 6,920,192 items, 6m 23s, 18,023.82 items/s; used/avail/free/total/max mem: 3.29G/3.02G/3.02G/6.31G/6.31G
+INFO  CompactToSAMMode     - 7,091,200 items, 6m 33s, 17,999.84 items/s; used/avail/free/total/max mem: 2.75G/3.52G/3.52G/6.27G/6.27G
+INFO  CompactToSAMMode     - 7,263,232 items, 6m 43s, 17,979.81 items/s; used/avail/free/total/max mem: 2.27G/4.04G/4.04G/6.31G/6.31G
+INFO  CompactToSAMMode     - 7,440,384 items, 6m 54s, 17,970.47 items/s; used/avail/free/total/max mem: 2.13G/4.17G/4.17G/6.29G/6.29G
+INFO  CompactToSAMMode     - 7,622,656 items, 7m 4s, 17,975.25 items/s; used/avail/free/total/max mem: 1.82G/4.48G/4.48G/6.31G/6.31G
+INFO  CompactToSAMMode     - 7,795,712 items, 7m 14s, 17,959.37 items/s; used/avail/free/total/max mem: 3.05G/3.25G/3.25G/6.30G/6.30G
+INFO  CompactToSAMMode     - 7,980,032 items, 7m 24s, 17,968.96 items/s; used/avail/free/total/max mem: 3.09G/3.21G/3.21G/6.30G/6.30G
+INFO  CompactToSAMMode     - 8,182,784 items, 7m 34s, 18,019.55 items/s; used/avail/free/total/max mem: 3.15G/3.15G/3.15G/6.30G/6.30G
+INFO  CompactToSAMMode     - 8,361,984 items, 7m 44s, 18,015.23 items/s; used/avail/free/total/max mem: 2.87G/3.43G/3.43G/6.31G/6.31G
+INFO  CompactToSAMMode     - 8,538,112 items, 7m 54s, 18,005.64 items/s; used/avail/free/total/max mem: 2.46G/3.86G/3.86G/6.32G/6.32G
+INFO  CompactToSAMMode     - 8,710,144 items, 8m 4s, 17,988.84 items/s; used/avail/free/total/max mem: 1.95G/4.30G/4.30G/6.25G/6.25G
+INFO  CompactToSAMMode     - 8,880,128 items, 8m 14s, 17,967.86 items/s; used/avail/free/total/max mem: 3.31G/2.99G/2.99G/6.30G/6.30G
+INFO  CompactToSAMMode     - 9,060,352 items, 8m 24s, 17,947.30 items/s; used/avail/free/total/max mem: 3.02G/3.29G/3.29G/6.31G/6.31G
+INFO  CompactToSAMMode     - 9,264,128 items, 8m 34s, 17,993.52 items/s; used/avail/free/total/max mem: 3.17G/3.13G/3.13G/6.30G/6.30G
+INFO  CompactToSAMMode     - 9,434,112 items, 8m 44s, 17,973.54 items/s; used/avail/free/total/max mem: 2.71G/3.59G/3.59G/6.30G/6.30G
+INFO  CompactToSAMMode     - 9,611,264 items, 8m 54s, 17,967.70 items/s; used/avail/free/total/max mem: 2.49G/3.81G/3.81G/6.30G/6.30G
+INFO  CompactToSAMMode     - 9,782,272 items, 9m 4s, 17,950.57 items/s; used/avail/free/total/max mem: 2.12G/4.19G/4.19G/6.30G/6.30G
+INFO  CompactToSAMMode     - 9,956,352 items, 9m 14s, 17,940.08 items/s; used/avail/free/total/max mem: 3.25G/3.05G/3.05G/6.29G/6.29G
+INFO  CompactToSAMMode     - 10,113,024 items, 9m 24s, 17,899.25 items/s; used/avail/free/total/max mem: 2.56G/3.74G/3.74G/6.29G/6.29G
+INFO  CompactToSAMMode     - 10,290,176 items, 9m 35s, 17,881.62 items/s; used/avail/free/total/max mem: 2.26G/4.04G/4.04G/6.30G/6.30G
+INFO  CompactToSAMMode     - 10,447,872 items, 9m 45s, 17,845.49 items/s; used/avail/free/total/max mem: 3.16G/3.14G/3.14G/6.30G/6.30G
+INFO  CompactToSAMMode     - 10,620,928 items, 9m 55s, 17,823.16 items/s; used/avail/free/total/max mem: 2.70G/3.60G/3.60G/6.30G/6.30G
+INFO  CompactToSAMMode     - 10,785,792 items, 10m 5s, 17,800.48 items/s; used/avail/free/total/max mem: 1.87G/4.42G/4.42G/6.30G/6.30G
+INFO  CompactToSAMMode     - 10,950,656 items, 10m 16s, 17,776.61 items/s; used/avail/free/total/max mem: 3.12G/3.18G/3.18G/6.30G/6.30G
+INFO  CompactToSAMMode     - 11,118,592 items, 10m 26s, 17,760.17 items/s; used/avail/free/total/max mem: 2.26G/3.94G/3.94G/6.20G/6.20G
+INFO  CompactToSAMMode     - 11,280,384 items, 10m 36s, 17,729.21 items/s; used/avail/free/total/max mem: 3.53G/2.73G/2.73G/6.26G/6.26G
+INFO  CompactToSAMMode     - 11,453,440 items, 10m 46s, 17,722.32 items/s; used/avail/free/total/max mem: 2.75G/3.55G/3.55G/6.30G/6.30G
+INFO  CompactToSAMMode     - 11,626,496 items, 10m 56s, 17,715.22 items/s; used/avail/free/total/max mem: 2.21G/3.97G/3.97G/6.18G/6.18G
+INFO  CompactToSAMMode     - 11,792,384 items, 11m 6s, 17,698.18 items/s; used/avail/free/total/max mem: 3.56G/2.70G/2.70G/6.26G/6.26G
+INFO  CompactToSAMMode     - 11,977,728 items, 11m 16s, 17,710.41 items/s; used/avail/free/total/max mem: 3.41G/2.88G/2.88G/6.29G/6.29G
+INFO  CompactToSAMMode     - 12,150,784 items, 11m 26s, 17,702.94 items/s; used/avail/free/total/max mem: 3.04G/3.26G/3.26G/6.30G/6.30G
+INFO  CompactToSAMMode     - 12,339,200 items, 11m 36s, 17,718.43 items/s; used/avail/free/total/max mem: 2.93G/3.36G/3.36G/6.29G/6.29G
+INFO  CompactToSAMMode     - 12,525,568 items, 11m 46s, 17,730.77 items/s; used/avail/free/total/max mem: 2.93G/3.36G/3.36G/6.30G/6.30G
+INFO  CompactToSAMMode     - 12,704,768 items, 11m 56s, 17,732.97 items/s; used/avail/free/total/max mem: 2.64G/3.66G/3.66G/6.30G/6.30G
+INFO  CompactToSAMMode     - 12,882,944 items, 12m 6s, 17,733.48 items/s; used/avail/free/total/max mem: 2.33G/3.97G/3.97G/6.30G/6.30G
+INFO  CompactToSAMMode     - 13,052,928 items, 12m 16s, 17,723.18 items/s; used/avail/free/total/max mem: 1.92G/4.36G/4.36G/6.29G/6.29G
+INFO  CompactToSAMMode     - 13,230,080 items, 12m 26s, 17,717.35 items/s; used/avail/free/total/max mem: 1.73G/4.55G/4.55G/6.29G/6.29G
+INFO  CompactToSAMMode     - 13,399,040 items, 12m 36s, 17,705.99 items/s; used/avail/free/total/max mem: 2.88G/3.36G/3.36G/6.24G/6.24G
+INFO  CompactToSAMMode     - 13,564,928 items, 12m 46s, 17,690.26 items/s; used/avail/free/total/max mem: 2.43G/3.85G/3.85G/6.29G/6.29G
+INFO  CompactToSAMMode     - 13,731,840 items, 12m 56s, 17,676.83 items/s; used/avail/free/total/max mem: 3.47G/2.82G/2.82G/6.29G/6.29G
+INFO  CompactToSAMMode     - 13,892,608 items, 13m 6s, 17,655.17 items/s; used/avail/free/total/max mem: 2.78G/3.51G/3.51G/6.29G/6.29G
+INFO  CompactToSAMMode     - 14,070,784 items, 13m 17s, 17,644.92 items/s; used/avail/free/total/max mem: 2.59G/3.69G/3.69G/6.29G/6.29G
+INFO  CompactToSAMMode     - 14,251,008 items, 13m 28s, 17,635.66 items/s; used/avail/free/total/max mem: 2.44G/3.81G/3.81G/6.25G/6.25G
+INFO  CompactToSAMMode     - 14,430,208 items, 13m 38s, 17,629.25 items/s; used/avail/free/total/max mem: 2.22G/4.08G/4.08G/6.29G/6.29G
+INFO  CompactToSAMMode     - 14,610,432 items, 13m 49s, 17,623.16 items/s; used/avail/free/total/max mem: 2.07G/4.23G/4.23G/6.30G/6.30G
+INFO  CompactToSAMMode     - 14,790,656 items, 13m 59s, 17,627.15 items/s; used/avail/free/total/max mem: 1.84G/4.44G/4.44G/6.28G/6.28G
+INFO  CompactToSAMMode     - 14,970,880 items, 14m 9s, 17,630.72 items/s; used/avail/free/total/max mem: 1.85G/4.35G/4.35G/6.20G/6.20G
+INFO  CompactToSAMMode     - 15,150,080 items, 14m 19s, 17,632.65 items/s; used/avail/free/total/max mem: 3.56G/2.72G/2.72G/6.28G/6.28G
+INFO  CompactToSAMMode     - 15,330,304 items, 14m 29s, 17,628.90 items/s; used/avail/free/total/max mem: 1.82G/4.33G/4.33G/6.15G/6.15G
+INFO  CompactToSAMMode     - 15,510,528 items, 14m 39s, 17,633.27 items/s; used/avail/free/total/max mem: 3.50G/2.70G/2.70G/6.20G/6.20G
+INFO  CompactToSAMMode     - 15,676,416 items, 14m 49s, 17,621.40 items/s; used/avail/free/total/max mem: 2.80G/3.49G/3.49G/6.29G/6.29G
+INFO  CompactToSAMMode     - 15,862,784 items, 14m 59s, 17,632.17 items/s; used/avail/free/total/max mem: 2.81G/3.43G/3.43G/6.24G/6.24G
+INFO  CompactToSAMMode     - 16,025,600 items, 15m 9s, 17,616.92 items/s; used/avail/free/total/max mem: 2.17G/4.12G/4.12G/6.29G/6.29G
+INFO  CompactToSAMMode     - 16,200,704 items, 15m 20s, 17,606.78 items/s; used/avail/free/total/max mem: 1.85G/4.44G/4.44G/6.29G/6.29G
+INFO  CompactToSAMMode     - 16,376,832 items, 15m 30s, 17,606.58 items/s; used/avail/free/total/max mem: 3.22G/3.03G/3.03G/6.24G/6.24G
+INFO  CompactToSAMMode     - 16,541,696 items, 15m 40s, 17,594.14 items/s; used/avail/free/total/max mem: 2.64G/3.66G/3.66G/6.30G/6.30G
+INFO  CompactToSAMMode     - 16,710,656 items, 15m 50s, 17,585.26 items/s; used/avail/free/total/max mem: 2.08G/4.23G/4.23G/6.30G/6.30G
+INFO  CompactToSAMMode     - 16,890,880 items, 16m 0s, 17,581.65 items/s; used/avail/free/total/max mem: 1.81G/4.49G/4.49G/6.30G/6.30G
+INFO  CompactToSAMMode     - 17,070,080 items, 16m 11s, 17,577.85 items/s; used/avail/free/total/max mem: 3.45G/2.84G/2.84G/6.29G/6.29G
+INFO  CompactToSAMMode     - 17,250,304 items, 16m 21s, 17,581.27 items/s; used/avail/free/total/max mem: 3.27G/2.99G/2.99G/6.27G/6.27G
+INFO  CompactToSAMMode     - 17,424,384 items, 16m 31s, 17,579.49 items/s; used/avail/free/total/max mem: 2.68G/3.62G/3.62G/6.30G/6.30G
+INFO  CompactToSAMMode     - 17,600,512 items, 16m 41s, 17,579.24 items/s; used/avail/free/total/max mem: 2.27G/3.93G/3.93G/6.20G/6.20G
+INFO  CompactToSAMMode     - 17,775,616 items, 16m 51s, 17,578.07 items/s; used/avail/free/total/max mem: 1.92G/4.37G/4.37G/6.30G/6.30G
+INFO  CompactToSAMMode     - 17,941,504 items, 17m 1s, 17,568.30 items/s; used/avail/free/total/max mem: 3.16G/3.14G/3.14G/6.30G/6.30G
+INFO  CompactToSAMMode     - 18,116,608 items, 17m 11s, 17,567.21 items/s; used/avail/free/total/max mem: 2.45G/3.85G/3.85G/6.30G/6.30G
+INFO  CompactToSAMMode     - 18,280,448 items, 17m 21s, 17,555.80 items/s; used/avail/free/total/max mem: 1.99G/4.31G/4.31G/6.30G/6.30G
+INFO  CompactToSAMMode     - 18,455,552 items, 17m 31s, 17,555.17 items/s; used/avail/free/total/max mem: 3.50G/2.81G/2.81G/6.30G/6.30G
+INFO  CompactToSAMMode     - 18,619,392 items, 17m 41s, 17,544.05 items/s; used/avail/free/total/max mem: 2.60G/3.70G/3.70G/6.30G/6.30G
+INFO  CompactToSAMMode     - 18,791,424 items, 17m 51s, 17,540.87 items/s; used/avail/free/total/max mem: 2.07G/4.23G/4.23G/6.29G/6.29G
+INFO  CompactToSAMMode     - 18,960,384 items, 18m 1s, 17,532.97 items/s; used/avail/free/total/max mem: 3.53G/2.77G/2.77G/6.30G/6.30G
+INFO  CompactToSAMMode     - 19,140,608 items, 18m 11s, 17,530.55 items/s; used/avail/free/total/max mem: 3.01G/3.29G/3.29G/6.29G/6.29G
+INFO  CompactToSAMMode     - 19,321,856 items, 18m 21s, 17,535.69 items/s; used/avail/free/total/max mem: 2.72G/3.58G/3.58G/6.30G/6.30G
+INFO  CompactToSAMMode     - 19,500,032 items, 18m 32s, 17,533.62 items/s; used/avail/free/total/max mem: 2.55G/3.74G/3.74G/6.29G/6.29G
+INFO  CompactToSAMMode     - 19,678,208 items, 18m 42s, 17,535.68 items/s; used/avail/free/total/max mem: 2.11G/4.18G/4.18G/6.29G/6.29G
+INFO  CompactToSAMMode     - 19,860,480 items, 18m 52s, 17,532.10 items/s; used/avail/free/total/max mem: 2.22G/4.07G/4.07G/6.29G/6.29G
+INFO  CompactToSAMMode     - 20,041,728 items, 19m 2s, 17,536.91 items/s; used/avail/free/total/max mem: 2.00G/4.30G/4.30G/6.30G/6.30G
+INFO  CompactToSAMMode     - 20,220,928 items, 19m 12s, 17,537.70 items/s; used/avail/free/total/max mem: 3.56G/2.74G/2.74G/6.30G/6.30G
+INFO  CompactToSAMMode     - 20,406,272 items, 19m 23s, 17,545.95 items/s; used/avail/free/total/max mem: 3.31G/2.99G/2.99G/6.30G/6.30G
+INFO  CompactToSAMMode     - 20,570,112 items, 19m 33s, 17,535.77 items/s; used/avail/free/total/max mem: 2.42G/3.89G/3.89G/6.31G/6.31G
+INFO  CompactToSAMMode     - 20,745,216 items, 19m 43s, 17,535.10 items/s; used/avail/free/total/max mem: 1.96G/4.34G/4.34G/6.31G/6.31G
+INFO  CompactToSAMMode     - 20,932,608 items, 19m 53s, 17,544.50 items/s; used/avail/free/total/max mem: 1.77G/4.54G/4.54G/6.31G/6.31G
+INFO  CompactToSAMMode     - 21,098,496 items, 20m 3s, 17,536.53 items/s; used/avail/free/total/max mem: 2.94G/3.36G/3.36G/6.30G/6.30G
+INFO  CompactToSAMMode     - 21,270,528 items, 20m 13s, 17,529.43 items/s; used/avail/free/total/max mem: 2.60G/3.70G/3.70G/6.31G/6.31G
+INFO  CompactToSAMMode     - 21,450,752 items, 20m 23s, 17,527.90 items/s; used/avail/free/total/max mem: 2.30G/4.01G/4.01G/6.30G/6.30G
+INFO  CompactToSAMMode     - 21,630,976 items, 20m 34s, 17,526.38 items/s; used/avail/free/total/max mem: 2.00G/4.31G/4.31G/6.30G/6.30G
+INFO  CompactToSAMMode     - 21,810,176 items, 20m 44s, 17,526.42 items/s; used/avail/free/total/max mem: 3.51G/2.77G/2.77G/6.28G/6.28G
+INFO  CompactToSAMMode     - 21,988,352 items, 20m 54s, 17,528.34 items/s; used/avail/free/total/max mem: 2.94G/3.37G/3.37G/6.31G/6.31G
+INFO  CompactToSAMMode     - 22,156,288 items, 21m 4s, 17,522.42 items/s; used/avail/free/total/max mem: 2.42G/3.89G/3.89G/6.31G/6.31G
+INFO  CompactToSAMMode     - 22,325,248 items, 21m 14s, 17,517.05 items/s; used/avail/free/total/max mem: 1.86G/4.44G/4.44G/6.30G/6.30G
+INFO  CompactToSAMMode     - 22,500,352 items, 21m 24s, 17,510.70 items/s; used/avail/free/total/max mem: 3.42G/2.88G/2.88G/6.30G/6.30G
+INFO  CompactToSAMMode     - 22,671,360 items, 21m 34s, 17,507.23 items/s; used/avail/free/total/max mem: 2.74G/3.51G/3.51G/6.26G/6.26G
+INFO  CompactToSAMMode     - 22,843,392 items, 21m 44s, 17,504.86 items/s; used/avail/free/total/max mem: 2.37G/3.93G/3.93G/6.30G/6.30G
+INFO  CompactToSAMMode     - 23,022,592 items, 21m 54s, 17,507.78 items/s; used/avail/free/total/max mem: 2.07G/4.23G/4.23G/6.30G/6.30G
+INFO  CompactToSAMMode     - 23,196,672 items, 22m 5s, 17,506.66 items/s; used/avail/free/total/max mem: 1.74G/4.56G/4.56G/6.30G/6.30G
+INFO  CompactToSAMMode     - 23,385,088 items, 22m 15s, 17,516.26 items/s; used/avail/free/total/max mem: 3.53G/2.77G/2.77G/6.30G/6.30G
+INFO  CompactToSAMMode     - 23,559,168 items, 22m 25s, 17,515.38 items/s; used/avail/free/total/max mem: 3.12G/3.18G/3.18G/6.30G/6.30G
+INFO  CompactToSAMMode     - 23,737,344 items, 22m 35s, 17,517.21 items/s; used/avail/free/total/max mem: 2.80G/3.50G/3.50G/6.31G/6.31G
+INFO  CompactToSAMMode     - 23,910,400 items, 22m 45s, 17,514.36 items/s; used/avail/free/total/max mem: 2.44G/3.86G/3.86G/6.30G/6.30G
+INFO  CompactToSAMMode     - 24,090,624 items, 22m 55s, 17,515.03 items/s; used/avail/free/total/max mem: 2.27G/4.03G/4.03G/6.30G/6.30G
+INFO  CompactToSAMMode     - 24,267,776 items, 23m 5s, 17,516.31 items/s; used/avail/free/total/max mem: 1.74G/4.52G/4.52G/6.26G/6.26G
+INFO  CompactToSAMMode     - 24,450,048 items, 23m 15s, 17,515.78 items/s; used/avail/free/total/max mem: 1.76G/4.54G/4.54G/6.30G/6.30G
+INFO  CompactToSAMMode     - 24,630,272 items, 23m 26s, 17,516.92 items/s; used/avail/free/total/max mem: 3.31G/2.99G/2.99G/6.30G/6.30G
+INFO  CompactToSAMMode     - 24,805,376 items, 23m 36s, 17,516.83 items/s; used/avail/free/total/max mem: 2.64G/3.66G/3.66G/6.30G/6.30G
+INFO  CompactToSAMMode     - 24,975,360 items, 23m 46s, 17,512.82 items/s; used/avail/free/total/max mem: 2.06G/4.25G/4.25G/6.31G/6.31G
+INFO  CompactToSAMMode     - 25,140,224 items, 23m 56s, 17,505.43 items/s; used/avail/free/total/max mem: 3.28G/3.03G/3.03G/6.31G/6.31G
+INFO  CompactToSAMMode     - 25,318,400 items, 24m 6s, 17,506.91 items/s; used/avail/free/total/max mem: 2.69G/3.62G/3.62G/6.31G/6.31G
+INFO  CompactToSAMMode     - 25,500,672 items, 24m 16s, 17,508.40 items/s; used/avail/free/total/max mem: 2.64G/3.66G/3.66G/6.30G/6.30G
+INFO  CompactToSAMMode     - 25,680,896 items, 24m 26s, 17,508.36 items/s; used/avail/free/total/max mem: 2.30G/4.00G/4.00G/6.30G/6.30G
+INFO  CompactToSAMMode     - 25,857,024 items, 24m 36s, 17,508.89 items/s; used/avail/free/total/max mem: 1.73G/4.57G/4.57G/6.31G/6.31G
+INFO  CompactToSAMMode     - 26,031,104 items, 24m 46s, 17,507.85 items/s; used/avail/free/total/max mem: 3.10G/3.21G/3.21G/6.31G/6.31G
+INFO  CompactToSAMMode     - 26,203,136 items, 24m 56s, 17,505.32 items/s; used/avail/free/total/max mem: 2.68G/3.63G/3.63G/6.30G/6.30G
+INFO  CompactToSAMMode     - 26,374,144 items, 25m 6s, 17,502.32 items/s; used/avail/free/total/max mem: 2.11G/4.20G/4.20G/6.30G/6.30G
+INFO  CompactToSAMMode     - 26,550,272 items, 25m 16s, 17,502.20 items/s; used/avail/free/total/max mem: 1.74G/4.53G/4.53G/6.27G/6.27G
+INFO  CompactToSAMMode     - 26,730,496 items, 25m 27s, 17,504.75 items/s; used/avail/free/total/max mem: 3.31G/2.99G/2.99G/6.30G/6.30G
+INFO  CompactToSAMMode     - 26,910,720 items, 25m 37s, 17,506.02 items/s; used/avail/free/total/max mem: 3.13G/3.17G/3.17G/6.30G/6.30G
+INFO  CompactToSAMMode     - 27,090,944 items, 25m 47s, 17,506.72 items/s; used/avail/free/total/max mem: 2.72G/3.48G/3.48G/6.20G/6.20G
+INFO  CompactToSAMMode     - 27,270,144 items, 25m 57s, 17,505.10 items/s; used/avail/free/total/max mem: 2.52G/3.78G/3.78G/6.30G/6.30G
+INFO  CompactToSAMMode     - 27,458,560 items, 26m 7s, 17,513.58 items/s; used/avail/free/total/max mem: 2.36G/3.93G/3.93G/6.29G/6.29G
+INFO  CompactToSAMMode     - 27,630,592 items, 26m 17s, 17,510.54 items/s; used/avail/free/total/max mem: 1.78G/4.52G/4.52G/6.30G/6.30G
+INFO  CompactToSAMMode     - 27,810,816 items, 26m 28s, 17,510.80 items/s; used/avail/free/total/max mem: 3.38G/2.92G/2.92G/6.29G/6.29G
+INFO  CompactToSAMMode     - 27,982,848 items, 26m 38s, 17,508.58 items/s; used/avail/free/total/max mem: 2.63G/3.66G/3.66G/6.30G/6.30G
+INFO  CompactToSAMMode     - 28,153,856 items, 26m 48s, 17,505.80 items/s; used/avail/free/total/max mem: 2.07G/4.23G/4.23G/6.30G/6.30G
+INFO  CompactToSAMMode     - 28,335,104 items, 26m 58s, 17,509.32 items/s; used/avail/free/total/max mem: 1.81G/4.49G/4.49G/6.30G/6.30G
+INFO  CompactToSAMMode     - 28,517,376 items, 27m 8s, 17,513.48 items/s; used/avail/free/total/max mem: 3.42G/2.88G/2.88G/6.30G/6.30G
+INFO  CompactToSAMMode     - 28,680,192 items, 27m 18s, 17,504.09 items/s; used/avail/free/total/max mem: 2.71G/3.58G/3.58G/6.29G/6.29G
+INFO  CompactToSAMMode     - 28,853,248 items, 27m 28s, 17,502.63 items/s; used/avail/free/total/max mem: 2.15G/4.15G/4.15G/6.30G/6.30G
+INFO  CompactToSAMMode     - 29,039,616 items, 27m 38s, 17,509.46 items/s; used/avail/free/total/max mem: 2.07G/4.22G/4.22G/6.30G/6.30G
+INFO  CompactToSAMMode     - 29,202,432 items, 27m 48s, 17,501.66 items/s; used/avail/free/total/max mem: 3.31G/2.99G/2.99G/6.30G/6.30G
+INFO  CompactToSAMMode     - 29,374,464 items, 27m 58s, 17,499.56 items/s; used/avail/free/total/max mem: 2.84G/3.37G/3.37G/6.20G/6.20G
+INFO  CompactToSAMMode     - 29,550,592 items, 28m 8s, 17,499.61 items/s; used/avail/free/total/max mem: 2.52G/3.79G/3.79G/6.30G/6.30G
+INFO  CompactToSAMMode     - 29,730,816 items, 28m 18s, 17,501.31 items/s; used/avail/free/total/max mem: 2.26G/4.04G/4.04G/6.30G/6.30G
+INFO  CompactToSAMMode     - 29,910,016 items, 28m 29s, 17,499.31 items/s; used/avail/free/total/max mem: 1.82G/4.48G/4.48G/6.30G/6.30G
+INFO  CompactToSAMMode     - 30,095,360 items, 28m 39s, 17,505.26 items/s; used/avail/free/total/max mem: 3.54G/2.76G/2.76G/6.30G/6.30G
+INFO  CompactToSAMMode     - 30,270,464 items, 28m 49s, 17,501.91 items/s; used/avail/free/total/max mem: 3.17G/3.11G/3.11G/6.27G/6.27G
+INFO  CompactToSAMMode     - 30,450,688 items, 28m 59s, 17,504.70 items/s; used/avail/free/total/max mem: 2.95G/3.36G/3.36G/6.31G/6.31G
+INFO  CompactToSAMMode     - 30,630,912 items, 29m 9s, 17,504.65 items/s; used/avail/free/total/max mem: 2.64G/3.63G/3.63G/6.27G/6.27G
+INFO  CompactToSAMMode     - 30,795,776 items, 29m 19s, 17,498.27 items/s; used/avail/free/total/max mem: 1.73G/4.58G/4.58G/6.30G/6.30G
+INFO  CompactToSAMMode     - 30,968,832 items, 29m 29s, 17,496.67 items/s; used/avail/free/total/max mem: 3.16G/3.14G/3.14G/6.30G/6.30G
+INFO  CompactToSAMMode     - 31,142,912 items, 29m 40s, 17,495.89 items/s; used/avail/free/total/max mem: 2.75G/3.55G/3.55G/6.30G/6.30G
+INFO  CompactToSAMMode     - 31,316,992 items, 29m 50s, 17,495.40 items/s; used/avail/free/total/max mem: 2.11G/4.19G/4.19G/6.30G/6.30G
+INFO  CompactToSAMMode     - 31,500,288 items, 30m 0s, 17,495.85 items/s; used/avail/free/total/max mem: 2.18G/4.12G/4.12G/6.30G/6.30G
+INFO  CompactToSAMMode     - 31,679,488 items, 30m 10s, 17,498.05 items/s; used/avail/free/total/max mem: 3.37G/2.80G/2.80G/6.18G/6.18G
+INFO  CompactToSAMMode     - 31,845,376 items, 30m 20s, 17,492.74 items/s; used/avail/free/total/max mem: 3.00G/3.30G/3.30G/6.29G/6.29G
+INFO  CompactToSAMMode     - 32,026,624 items, 30m 30s, 17,496.03 items/s; used/avail/free/total/max mem: 2.78G/3.51G/3.51G/6.30G/6.30G
+INFO  CompactToSAMMode     - 32,193,536 items, 30m 40s, 17,491.44 items/s; used/avail/free/total/max mem: 2.26G/4.04G/4.04G/6.30G/6.30G
+INFO  CompactToSAMMode     - 32,375,808 items, 30m 50s, 17,495.31 items/s; used/avail/free/total/max mem: 1.99G/4.19G/4.19G/6.18G/6.18G
+INFO  CompactToSAMMode     - 32,575,488 items, 31m 0s, 17,508.47 items/s; used/avail/free/total/max mem: 2.30G/3.97G/3.97G/6.28G/6.28G
+INFO  CompactToSAMMode     - 32,768,000 items, 31m 10s, 17,517.51 items/s; used/avail/free/total/max mem: 2.63G/3.62G/3.62G/6.25G/6.25G
+INFO  CompactToSAMMode     - 32,970,752 items, 31m 20s, 17,528.63 items/s; used/avail/free/total/max mem: 2.92G/3.37G/3.37G/6.29G/6.29G
+INFO  CompactToSAMMode     - 33,162,240 items, 31m 30s, 17,537.05 items/s; used/avail/free/total/max mem: 2.84G/3.40G/3.40G/6.24G/6.24G
+INFO  CompactToSAMMode     - 33,354,752 items, 31m 40s, 17,546.01 items/s; used/avail/free/total/max mem: 2.74G/3.56G/3.56G/6.30G/6.30G
+INFO  CompactToSAMMode     - 33,541,120 items, 31m 51s, 17,551.41 items/s; used/avail/free/total/max mem: 2.57G/3.73G/3.73G/6.30G/6.30G
+
+real	31m58.902s
+user	41m3.880s
+sys	0m11.792s
+job completed
+total 639M
+-rw-r--r--  1 gobyweb icb 638M Jun 10 17:42 JRODTYG.bam
+-rw-r--r--  1 gobyweb icb 1.6K Jun 10 17:42 JRODTYG.compact-file-stats.txt
+drwxr-xr-x  2 gobyweb icb 4.0K Apr 14 13:05 .
+drwxr-xr-x 12 gobyweb icb 4.0K Apr 14 12:02 ..
+.
+.
+. Statistics
+.
+.
+:compact alignment sizes
+JRODTYG-(no-type) total size (668557454) = 668557454
+:bits per base
+/home/gobyweb/reads-for-paper/results/goby_hybrid_keep_max-TO-bam/JRODTYG//JRODTYG.compact-file-stats.txt : 0.453414
