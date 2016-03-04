@@ -154,7 +154,8 @@ function setup {
     ##
     ## Order of execution
     ##
-   WORK_ACTIONS="index-bam bam-TO-bam_name_sort"  #1
+   #WORK_ACTIONS="index-bam bam-TO-bam_name_sort"  #1
+   WORK_ACTIONS="bam-TO-cramv3"
    #WORK_ACTIONS="bam-TO-goby_null bam-TO-goby_hybrid_domain_noclips bam-TO-goby_gzip bam-TO-cram1 bam-TO-cram2 bam-TO-cram3" #2 
    #WORK_ACTIONS="bam-TO-goby_hybrid_keep_max" #3
    #WORK_ACTIONS="cram1-TO-bam cram2-TO-bam cram3-TO-bam goby_gzip-TO-bam goby_hybrid_domain-TO-bam goby_hybrid_keep_max-TO-bam bam-TO-bzip2_reads" #4
@@ -343,6 +344,30 @@ function bam-TO-bam_name_sort {
     ${SAMTOOLS} sort -n ${TAG}.bam ${TAG}.name-sorted
     rm ${TAG}.bam ${TAG}.bam.bai
 }
+
+function bam-TO-cramv3 {
+    cp ${SRC_DIR}/${TAG}-no-unmapped.bam* .
+    echo "+++"
+    echo "+++ Timing BAM to CRAM version 3 (parameters from Boiler benchmark, see https://github.com/jpritt/boiler-experiments/blob/preprint-2/README.md) ${TAG}"
+    echo "+++"
+    time ${CRAMTOOLS_EXEC} cram -I ${TAG}-no-unmapped.bam -R ${REF_DIR}/${REF_FA} -O ${TAG}.cram 
+
+    RETURN_STATUS=$?
+    if [ ! $RETURN_STATUS -eq 0 ]; then
+        echo "Job seems to have failed with return status ${RETURN_STATUS}"
+        exit
+    fi
+    ${CRAMTOOLS_EXEC} index   --input-file ${TAG}.cram  # —reference-fasta-file ${REF_DIR}/${REF_FA}
+    if [ ! $RETURN_STATUS -eq 0 ]; then
+        echo "Job seems to have failed with return status ${RETURN_STATUS}"
+        exit
+    fi
+    # Remove any files we don't want to archive when this is done.
+    # ** Don't keep the source bam file
+    rm ${TAG}*.bam ${TAG}*.bam.bai
+}
+
+
 
 function bam-TO-cram1 {
     cp ${SRC_DIR}/${TAG}-no-unmapped.bam* .
@@ -998,6 +1023,10 @@ case ${WORK_ACTION} in
         ;;
     goby_gzip-TO-bam)
         goby_gzip-TO-bam
+        echo "job completed"
+        ;;
+    bam-TO-cramv3)
+        bam-TO-cramv3
         echo "job completed"
         ;;
     bam-TO-cram1)
